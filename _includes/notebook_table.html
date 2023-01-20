@@ -1,0 +1,26 @@
+<style>
+    table.notebooks td {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    table.notebooks tr:hover {
+        background-color: rgb(255, 255, 255);
+    }
+</style>
+
+<table class="notebooks">
+    {% for notebook in page.notebooks %}
+    <tr>
+        <td>
+            <b>{{notebook}}</b>
+        </td>
+        <td>
+            <a href="{{site.baseurl}}/assets/notebooks/{{notebook}}.ipynb" target="_blank">notebook file</a>
+        </td>
+        <td>
+            <a href="{{site.baseurl}}/assets/notebooks/{{notebook}}.html" target="_blank">HTML version</a>
+        </td>
+    </tr>
+    {% endfor %}
+</table>

@@ -1,0 +1,31 @@
+# basic configuration
+baseurl: /
+markdown: kramdown
+permalink: /:categories/:title/
+
+
+# Some files we need to exclude, so Github can build the site
+exclude: [Gemfile, Gemfile.lock, README.md, vendor]
+
+defaults:
+  -
+    scope:
+      path: "modules" # an empty string here means all files in the project
+    values:
+      layout: "course_page"
+
+prose:
+  media: img
+  ignore:
+    - /_includes
+    - /_layouts
+    - /_sass
+    - /fonts
+    - /js
+    - /css
+
+# Set some personal styles and logo for your course
+# this is a hex value http://www.w3schools.com/tags/ref_colorpicker.asp
+jumbotron_color: "05386B"
+jumbotron_background_image: "milky-way.jpg"
+jumbotron_image: "sphere.svg"

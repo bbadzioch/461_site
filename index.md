@@ -26,100 +26,91 @@ A PDF version of this syllabus is available <a href="/assets/syllabus.pdf" markd
 
 ## Lectures
 
-| Mon, Wed 3:30 - 4:50 PM &nbsp; &nbsp; | [Math Building 122](http://www.buffalo.edu/home/visiting-ub/CampusMaps/maps.html#MATH){:target="_blank"} |
+| Mon, Wed 12:00 - 1:20 PM &nbsp; &nbsp; | [Math Building 150](http://www.buffalo.edu/home/visiting-ub/CampusMaps/maps.html#MATH){:target="_blank"} |
 
 
 ## Instructor
 
-Bernard Badzioch  
-**E-mail:** [badzioch@buffalo.edu](mailto:badzioch@buffalo.edu?subject=MTH 427/527)  
+Bernard Badzioch
+**E-mail:** [badzioch@buffalo.edu](mailto:badzioch@buffalo.edu?subject=MTH 461)
 **Office Hours:** Mon 5:00 - 6:00 PM and by appointment.
 
 
 ## Prerequisites
 
-* General topology (topological spaces, continuous functions, subspaces, product spaces, quotient spaces, compactness and path connectedness).
-* Some group theory (groups, subgroups, quotient groups, homomorphisms and isomorphisms).
+This course is a sequel of MTH 309 Introduction to Linear Algebra, and thus we will freely use
+the material that is covered in MTH 309: systems of linear equations, vectors and matrices, inner
+products and orthogonality, the determinant of a matrix, eigenvalues and eigenvectors etc. However,
+these topics will be reviewed briefly as needed.
+
+In addition, it will be assumed that you familiar with reading and writing mathematical proofs to
+the extent that is covered in MTH 311.
 
 ## Learning outcomes
 
-After completing this course students should be able to:
+The goal of this course is to introduce some more advanced topics in linear algebra
+and show how they are used in practical applications. Topics that will be dicussed
+include:
 
-* Understand the notions of a category and a functor between categories.
-* Understand the notions of homotopy of functions and homotopy equivalence of topological
-  spaces.
-* Understand the construction of the fundamental group functor and its properties.
-* Be able to compute the fundamental group of a variety spaces using such properties as homotopy
-  invariance, the product formula, van Kampen's Theorem.
-* Understand some applications of the fundamental group (Brouwer fixed point theorem, Borsuk-Ulam theorem,
-  the fundamental theorem of algebra etc.).
-* Understand the notion of a CW complex and know how to compute the fundamental group of a CW complex
-  using its cell structure.
-* Understand and apply some basic results of homotopy theory: the cellular approximation theorem,
-  the homotopy extension property of CW complexes etc.
-* Understand the notion of a covering space.
-* Understand and be able to apply the results on classification theorem of covering spaces using
-  the fundamental group.
-* Understand the notion of a deck transformation and how the group of deck transformations of a covering
-  can be expressed in terms of the fundamental group.
+* Linear and integer programming.
+* Elements of spectral graph theory.
+* Markov chains.
+* Principal Component Analysis.
+* Singular Value Decomposition and its applications.
+* Iterative computation of eigenvalues and eigenvectors.
+* Linear algebra over complex numbers.
+* Linear algebra over finite fields.
+* Polynomial interpolation and its applications.
+
+Since all practical application of linear algebra require computer-based computations,
+the material will be illustrated by computations done using Python and some of its
+scientific computing libraries (numpy, scipy, networx etc.).
 
 ## Textbook
 
-The course will follow lecture notes posted on this website.
-If you would like to use a published text as a supplement, there are many books
-to choose from. [Algebraic Topology by Edwin Spanier](https://amzn.to/34x2tNp){:target="_blank"} is a classic.
-[Algebraic Topology by Allen Hatcher](https://amzn.to/3q6lKh8){:target="_blank"}
-is another good option and it can be downloaded for free from
-[Allen Hatcher's website](https://pi.math.cornell.edu/~hatcher/AT/ATpage.html){:target="_blank"}.
-The content of the course will roughly correspond to chapters 1-2 of Spanier's
-book and chapters 0-1 of Hatcher's text.
+There is no textbook for this course. Instead, the  course will follow lecture notes that posted on
+this website.
+
+## Software
+
+This course - lectures and homework assignments - will often use computer-based calculations.
+We will be using the [Anaconda distribution of Python 3.9](https://www.anaconda.com/products/distribution).
+This is free software available for Mac, Linux, and Windows. Even if you have Python already
+installed on your computer you should install this distribution since it includes Jupyter notebook
+and some Python modules we will need. It will be convenient if you install the software on a laptop,
+if you have one, since then you will be able to bring it to class or office hours if needed.
 
 
 ## Grading
 
-| **Homework**                          | 35% |  
-| **Midtem Exam**                       | 20% |
-| **Class participation**               | 10% |
-| **Final Exam**                        | 35% |  
+| **Homework**                          | 75% |
+| **Weekly Digests**                    | 25% |
 {: .syllabus-table }
 
 ## Homework
 
-Homework problems will be assigned weekly, and will be due on Wednesday each week.
-Students registered for MTH 528 are required to submit homework solutions typeset
-in LaTeX. MTH 428 students will receive one bonus point for each homework problem
-solution prepared in LaTeX (solutions that show no mathematical effort do not count).
-
-You can collaborate on homework problems, but you must write solutions entirely on your
-own. Copying solutions from other students or any other sources is a violation
-of the UB academic integrity policy.
+Homework problems will be assigned every other week. You can collaborate on homework problems,
+but you must write solutions entirely on your own. Copying solutions from other students or any
+other sources is a violation of the UB academic integrity policy.
 
 Homework assignments will be collected and returned through [Gradescope](https://www.gradescope.com).
 
-## Class participation
+## Weekly digests
 
-Class participation credit will be based on two components.
-
-**Class attendance.** You can earn up to 5% of the total course credit
-for being present and on time during class meetings. You can miss two
-class meetings without a justified reason. Each subsequent unexcused absence
-will lower your participation credit by 1% (i.e. from 5% to 4% etc.).
-
-**Weekly digest.** As a part of each homework you will be asked to submit
-a short (2-3 sentences) writeup on your study from the previous week.
-For example, you can write:
+Each week you will be asked to submit a short (2-3 sentences) writeup on your study
+from the previous week. For example, you can write:
 
 * what topics you have found interesting (or boring)
 * what topics you have found difficult (or easy)
 * how  you feel about the course
 * anything else you want to share.
 
-You will be also asked to submit questions that you would like to see discussed
-during a class meeting.  
+You will be also asked to submit a question (or questions) that you would like to
+see discussed during a class meeting.
 
-You can receive up to 5% credit for these writeups. You can miss one
+You can receive up to 20% credit for these writeups. You can miss one
 such assignment without loosing any credit, but your weekly digest credit will be
-lowered by 1% for each subsequent missed assignment.   
+lowered by 5% for each subsequent missed assignment.
 
 I may award extra credit to students who are especially active in the course.
 I may also offer some extra credit opportunities for giving short presentations
@@ -128,9 +119,7 @@ on some topic etc.
 
 ## Exams
 
-| **Midterm Exam**  | Wednesday, March 30, 3:30 - 4:50 PM  | Math Building 122  |
-| **Final Exam**    | Tuesday, May 17, 11:45 - 2:45 PM     | Math Building 122  |  
-{: .syllabus-table }
+There will be no exams in this course.
 
 
 ## Incomplete Grades

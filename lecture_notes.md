@@ -3,7 +3,7 @@ layout: lecture_notes
 
 chapters:
     - title: "1. Review: Systems of linear equations"
-      complete: false
+      complete: true
     - title: 2. Linear programming
       complete: false
     - title: 3. Representation of a linear program

@@ -19,11 +19,13 @@
         <td>
             <a href="{{site.baseurl}}/assets/notes/mth461_notes_{{ch_num}}.pdf" target="_blank">blank notes</a>
         </td>
-        {% if chapter.complete %}
+
         <td>
+            {% if chapter.complete %}
             <a href="{{site.baseurl}}/assets/notes/mth461_notes_{{ch_num}}_complete.pdf" target="_blank">complete notes</a>
+            {% endif %}
         </td>
-        {% endif %}
+
     </tr>
     {% endfor %}
 </table>

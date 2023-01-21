@@ -64,7 +64,7 @@ include:
 
 Since all practical application of linear algebra require computer-based computations,
 the material will be illustrated by computations done using Python and some of its
-scientific computing libraries (numpy, scipy, networx etc.).
+scientific computing libraries (numpy, scipy, networkx etc.).
 
 ## Textbook
 
@@ -74,7 +74,7 @@ this website.
 ## Software
 
 This course - lectures and homework assignments - will often use computer-based calculations.
-We will be using the [Anaconda distribution of Python 3.9](https://www.anaconda.com/products/distribution).
+We will be using the [Anaconda distribution of Python 3.9](https://www.anaconda.com/products/distribution){:target="_blank"}.
 This is free software available for Mac, Linux, and Windows. Even if you have Python already
 installed on your computer you should install this distribution since it includes Jupyter notebook
 and some Python modules we will need. It will be convenient if you install the software on a laptop,
@@ -93,7 +93,7 @@ Homework problems will be assigned every other week. You can collaborate on home
 but you must write solutions entirely on your own. Copying solutions from other students or any
 other sources is a violation of the UB academic integrity policy.
 
-Homework assignments will be collected and returned through [Gradescope](https://www.gradescope.com).
+Homework assignments will be collected and returned through [Gradescope](https://www.gradescope.com){:target="_blank"}.
 
 ## Weekly digests
 

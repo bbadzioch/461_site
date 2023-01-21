@@ -2,10 +2,14 @@
 layout: lecture_notes
 
 chapters:
-    - "1. Review: Systems of linear equations"
-    - 2. Linear programming
-    - 3. Representation of a linear program
-    - 4. Infeasibility and unboundedness
+    - title: "1. Review: Systems of linear equations"
+      complete: false
+    - title: 2. Linear programming
+      complete: false
+    - title: 3. Representation of a linear program
+      complete: false
+    - title: 4. Infeasibility and unboundedness
+      complete: false
 ---
 
 # Lecture notes

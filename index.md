@@ -41,7 +41,7 @@ A PDF version of this syllabus is available <a href="/assets/syllabus.pdf" markd
 
 This course is a sequel of MTH 309 Introduction to Linear Algebra, and thus we will freely use
 the material that is covered in MTH 309: systems of linear equations, vectors and matrices, inner
-products and orthogonality, the determinant of a matrix, eigenvalues and eigenvectors etc. However,
+products and orthogonality, determinants, eigenvalues and eigenvectors etc. However,
 these topics will be reviewed briefly as needed.
 
 In addition, it will be assumed that you familiar with reading and writing mathematical proofs to

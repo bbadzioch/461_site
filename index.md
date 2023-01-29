@@ -33,7 +33,7 @@ A PDF version of this syllabus is available <a href="/assets/syllabus.pdf" markd
 
 Bernard Badzioch
 **E-mail:** [badzioch@buffalo.edu](mailto:badzioch@buffalo.edu?subject=MTH 461)
-**Office Hours:** Mon 5:00 - 6:00 PM and by appointment.
+**Office Hours:** TBA.
 
 
 ## Prerequisites
@@ -68,8 +68,8 @@ scientific computing libraries (numpy, scipy, networkx etc.).
 
 ## Textbook
 
-There is no textbook for this course. Instead, the  course will follow lecture notes that posted on
-this website.
+There is no textbook for this course. Instead, the  course will follow lecture notes that will be posted
+on this website.
 
 ## Software
 
@@ -90,15 +90,15 @@ if you have one, since then you will be able to bring it to class or office hour
 ## Homework
 
 Homework problems will be assigned every other week. You can collaborate on homework problems,
-but you must write solutions entirely on your own. Copying solutions from other students or any
-other sources is a violation of the UB academic integrity policy.
+but you must write solutions entirely on your own. Copying solutions from other students or form
+any other sources is a violation of the UB academic integrity policy and may result in academic
+sanctions (reduction of the course grade, course failure etc.).
 
-Homework assignments will be collected and returned through [Gradescope](https://www.gradescope.com){:target="_blank"}.
 
 ## Weekly digests
 
-Each week you will be asked to submit a short (2-3 sentences) writeup on your study
-from the previous week. For example, you can write:
+Each week you will be asked to submit a short (a few sentences long sentences) writeup
+on your study from the previous week. For example, you can write:
 
 * what topics you have found interesting (or boring)
 * what topics you have found difficult (or easy)
@@ -108,7 +108,7 @@ from the previous week. For example, you can write:
 You will be also asked to submit a question (or questions) that you would like to
 see discussed during a class meeting.
 
-You can receive up to 20% credit for these writeups. You can miss one
+You can receive up to 25% credit for these writeups. You can miss one
 such assignment without loosing any credit, but your weekly digest credit will be
 lowered by 5% for each subsequent missed assignment.
 

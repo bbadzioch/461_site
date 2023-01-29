@@ -69,8 +69,8 @@ scientific computing libraries (numpy, scipy, networkx etc.).
 
 ## Textbook
 
-There is no textbook for this course. Instead, the  course will follow lecture notes that will be posted
-on this website.
+There is no textbook for this course. Instead, the  course will follow [lecture notes](lecture_notes.md)
+that will be posted on this website.
 
 ## Software
 

@@ -98,7 +98,7 @@ sanctions (reduction of the course grade, course failure etc.).
 
 ## Weekly digests
 
-Each week you will be asked to submit a short (a few sentences long sentences) writeup
+Each week you will be asked to submit a short (a few sentences long) writeup
 on your study from the previous week. For example, you can write:
 
 * what topics you have found interesting (or boring)
@@ -107,11 +107,13 @@ on your study from the previous week. For example, you can write:
 * anything else you want to share.
 
 You will be also asked to submit a question (or questions) that you would like to
-see discussed during a class meeting.
+see discussed during a class meeting. Asking a question is a required part of this
+assignment.
 
 You can receive up to 25% credit for these writeups. You can miss one
 such assignment without loosing any credit, but your weekly digest credit will be
-lowered by 5% for each subsequent missed assignment.
+lowered by 5% for each subsequent missed assignment (i.e. to 20% of the first reduction,
+the to 15% etc.).
 
 I may award extra credit to students who are especially active in the course.
 I may also offer some extra credit opportunities for giving short presentations

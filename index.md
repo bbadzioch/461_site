@@ -91,7 +91,7 @@ if you have one, since then you will be able to bring it to class or office hour
 ## Homework
 
 Homework problems will be assigned every other week. You can collaborate on homework problems,
-but you must write solutions entirely on your own. Copying solutions from other students or form
+but you must write solutions entirely on your own. Copying solutions from other students or from
 any other sources is a violation of the UB academic integrity policy and may result in academic
 sanctions (reduction of the course grade, course failure etc.).
 

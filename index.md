@@ -23,7 +23,7 @@ ul {
 # Syllabus
 
 A PDF version of this syllabus is available <a href="/assets/syllabus.pdf" markdown="0">here</a>.
-{% end comment %}
+{% endcomment %}
 
 ## Lectures
 

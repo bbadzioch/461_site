@@ -53,15 +53,15 @@ The goal of this course is to introduce some more advanced topics in linear alge
 and show how they are used in practical applications. Topics that will be dicussed
 include:
 
-* Linear and integer programming.
-* Elements of spectral graph theory.
-* Markov chains.
-* Principal Component Analysis.
-* Singular Value Decomposition and its applications.
-* Iterative computation of eigenvalues and eigenvectors.
-* Linear algebra over complex numbers.
-* Linear algebra over finite fields.
-* Polynomial interpolation and its applications.
+* Linear and integer programming
+* Elements of spectral graph theory
+* Markov chains
+* Principal Component Analysis
+* Singular Value Decomposition and its applications
+* Iterative computation of eigenvalues and eigenvectors
+* Linear algebra over complex numbers
+* Linear algebra over finite fields
+* Polynomial interpolation and its applications
 
 Since all practical application of linear algebra require computer-based computations,
 the material will be illustrated by computations done using Python and some of its

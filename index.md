@@ -19,10 +19,11 @@ ul {
 }
 </style>
 
-
+{% comment %}
 # Syllabus
 
 A PDF version of this syllabus is available <a href="/assets/syllabus.pdf" markdown="0">here</a>.
+{% end comment %}
 
 ## Lectures
 
@@ -31,9 +32,9 @@ A PDF version of this syllabus is available <a href="/assets/syllabus.pdf" markd
 
 ## Instructor
 
-Bernard Badzioch
-**E-mail:** [badzioch@buffalo.edu](mailto:badzioch@buffalo.edu?subject=MTH 461)
-**Office Hours:** TBA.
+| Bernard Badzioch |
+| **E-mail:** [badzioch@buffalo.edu](mailto:badzioch@buffalo.edu?subject=MTH 461) |
+| **Office Hours:** TBA. |
 
 
 ## Prerequisites
@@ -136,4 +137,4 @@ See the UB Catalog for the [UB Academic Integrity Policy](https://catalog.buffal
 
 If you need accommodations due to a physical or learning disability please contact the
 [UB Accessibility Resources Office](https://www.buffalo.edu/studentlife/who-we-are/departments/accessibility.html){:target="_blank"}
-to get halp with making appropriate arrangements.
+to get help with making appropriate arrangements.

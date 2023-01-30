@@ -19,11 +19,10 @@ ul {
 }
 </style>
 
-{% comment %}
+
 # Syllabus
 
 A PDF version of this syllabus is available <a href="/assets/syllabus.pdf" markdown="0">here</a>.
-{% endcomment %}
 
 ## Lectures
 
@@ -44,7 +43,7 @@ the material that is covered in MTH 309: systems of linear equations, vectors an
 products and orthogonality, determinants, eigenvalues and eigenvectors etc. However,
 these topics will be reviewed briefly as needed.
 
-In addition, it will be assumed that you familiar with reading and writing mathematical proofs to
+In addition, it will be assumed that you are familiar with reading and writing mathematical proofs to
 the extent that is covered in MTH 311.
 
 ## Learning outcomes
@@ -113,7 +112,7 @@ assignment.
 You can receive up to 25% credit for these writeups. You can miss one
 such assignment without loosing any credit, but your weekly digest credit will be
 lowered by 5% for each subsequent missed assignment (i.e. to 20% of the first reduction,
-the to 15% etc.).
+15% for the second etc.).
 
 I may award extra credit to students who are especially active in the course.
 I may also offer some extra credit opportunities for giving short presentations

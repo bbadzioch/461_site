@@ -10,6 +10,10 @@ chapters:
       complete: false
     - title: 4. Infeasibility and unboundedness
       complete: false
+    - title: "5. The simplex method: the idea"
+      complete: false
+    - title: "6. The simplex method: an example"
+      complete: false
 ---
 
 # Lecture notes

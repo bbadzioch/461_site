@@ -1,7 +1,7 @@
 ### Weekly Digest 1: Questions and Answers
 
 
-### Yuzhan asks:
+#### Yuzhan asks:
 > 1. I am wondering if there is any website for learning the Numpy package.
 > 2. From my understanding, once the number of basic variables = the number of rows,
 >   then this matrix is in a basic form. I am not sure if my understanding of a matrix
@@ -12,7 +12,7 @@
 We will get back to it soon, so it should get clearer.
 
 
-### Stephanie asks:
+#### Stephanie asks:
 
 > Are we going to learn how to solve the linear programs other than graphically?
 > Are you going to demonstrate things in class using python? ( I have very little experience in python

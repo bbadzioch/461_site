@@ -1,17 +1,18 @@
 ### Weekly Digest 1: Questions and Answers
 
 
-**Yuzhan asks:**
+### Yuzhan asks:
 > 1. I am wondering if there is any website for learning the Numpy package.
 > 2. From my understanding, once the number of basic variables = the number of rows,
 >   then this matrix is in a basic form. I am not sure if my understanding of a matrix
 >   in a basic form is correct.
 
 1. I would recommend the website for [*Python Data Science Handbook*](https://jakevdp.github.io/PythonDataScienceHandbook/index.html) by Jake VanderPlas.
-2. No, being in basic form means that matrix is row rediced (except it is more general). We will get back to it soon, so it should get clearer.
+2. No, being in basic form means that matrix is row reduced (except it is more general).
+We will get back to it soon, so it should get clearer.
 
 
-**Stephanie asks:**
+### Stephanie asks:
 
 > Are we going to learn how to solve the linear programs other than graphically?
 > Are you going to demonstrate things in class using python? ( I have very little experience in python

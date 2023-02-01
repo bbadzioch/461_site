@@ -1,5 +1,6 @@
 ### Weekly Digest 1: Questions and Answers
 
+<br/>
 
 #### Yuzhan asks:
 > 1. I am wondering if there is any website for learning the Numpy package.

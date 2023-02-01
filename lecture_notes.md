@@ -5,7 +5,7 @@ chapters:
     - title: "1. Review: Systems of linear equations"
       complete: true
     - title: 2. Linear programming
-      complete: false
+      complete: true
     - title: 3. Representation of a linear program
       complete: false
     - title: 4. Infeasibility and unboundedness

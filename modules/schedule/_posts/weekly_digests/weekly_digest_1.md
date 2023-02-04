@@ -3,6 +3,7 @@
 <br/>
 
 #### Yuzhan asks:
+
 > 1. I am wondering if there is any website for learning the Numpy package.
 > 2. From my understanding, once the number of basic variables = the number of rows,
 >   then this matrix is in a basic form. I am not sure if my understanding of a matrix
@@ -26,3 +27,36 @@ Yes, I will show how to do various linear algebra computations using Python. I d
 that everyone in this class has programming experience. It not difficult to perform some computations
 without writing fully-featured Python programs.
 
+What is does it mean for a matrix to be in basic form? This was a little unclear to me.
+Is the following correct?
+If an mxn matrix has m leading ones when in reduced echelon form then the matrix is in basic form.
+
+
+#### Giacomo asks:
+
+> What is does it mean for a matrix to be in basic form? This was a little unclear to me.
+> Is the following correct? If an mxn matrix has m leading ones when in reduced echelon form
+> then the matrix is in basic form.
+
+No, this is not quite true. In order to be in the basic form the matrix already needs
+to be essentially row reduced. I will get back to it in class.
+
+#### Alan asks:
+
+> Is convexity relevant in terms of linear programming? Just checking since it is linear programming
+> so it seems everything will end up being convex.
+
+We will not explicitly study it, but convexity is a crucial reason why linear programming
+problems are solvable. In general, non-convex optimization problems are much more difficult
+than convex ones.
+
+
+#### Zoe asks:
+
+> How would you find the exact optimal values in the examples given, is it using techniques from multivariable
+> and vector calc? What do you do when you have a lot of decision variables and how quickly does it escalate
+> in complexity?
+
+I will explain how these problems can be solved. There is no need for calculus, and they can be solved efficiently
+even for millions of decision variables and constraints. Of course, computers are used to do the calculations
+at this scale.

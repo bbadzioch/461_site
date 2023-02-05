@@ -60,3 +60,13 @@ than convex ones.
 I will explain how these problems can be solved. There is no need for calculus, and they can be solved efficiently
 even for millions of decision variables and constraints. Of course, computers are used to do the calculations
 at this scale.
+
+
+#### Nicholas asks:
+
+> I understand the theory and calculation of the growth of linear functions, but I'm not sure if I exactly understand
+> its application.
+
+In linear programming problems the objective is to find a maximum or a minimum of a linear function within
+the feasible region. Understanding the behavior of linear functions is needed to see where this maximum or
+minimum can occur and if it needs to exist at all. This should become clearer in this course very soon.

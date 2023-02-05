@@ -33,7 +33,7 @@ A PDF version of this syllabus is available <a href="/assets/syllabus.pdf" markd
 
 | Bernard Badzioch |
 | **E-mail:** [badzioch@buffalo.edu](mailto:badzioch@buffalo.edu?subject=MTH 461) |
-| **Office Hours:** TBA. |
+| **Office Hours:** Wed 1:30-3:30 PM, Math Building 108 and by appointment |
 
 
 ## Prerequisites

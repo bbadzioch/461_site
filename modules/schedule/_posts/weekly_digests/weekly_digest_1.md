@@ -121,7 +121,7 @@ to go with computations.
 
 #### Jonah asks:
 
-> When we were formulating linear programming problems, the decision variables (e.g. $a_{11}$, $a_{12}$, ... $a_{23}$)
+> When we were formulating linear programming problems, the decision variables (e.g. $$a_{11}$$, $$a_{12}$$, ... $$a_{23}$$)
 > were arranged like the entries of a matrix. Will we use matrices to solve linear programming programs?
 
 Yes.

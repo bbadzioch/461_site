@@ -70,3 +70,58 @@ at this scale.
 In linear programming problems the objective is to find a maximum or a minimum of a linear function within
 the feasible region. Understanding the behavior of linear functions is needed to see where this maximum or
 minimum can occur and if it needs to exist at all. This should become clearer in this course very soon.
+
+
+#### Alice asks:
+
+> What can we do to prepare for the lectures before hand?
+
+Reviewing the previous ones should be helpful.
+
+
+#### Huixin asks:
+
+> Do we need to bring a laptop to every class?
+
+No.
+
+
+#### Pavan asks:
+
+> I am aware there's no textbook for this course. Could you suggest some textbook
+> or any other source to learn more about the contents mentioned in this course?
+> I feel that would also give me more insight and maybe even ideas for job applications.
+
+There is no single book that I know of that would cover all material I intend to
+introduce in this course. There are good books for various pieces of this material.
+For example, for linear and integer programming (i.e. our first topics) "Understanding
+and using linear programming" by Matousek and Gartner is very nice.
+
+
+#### Carter asks:
+
+> Will canonical forms show up in this class? Im not sure if they can be applied but
+> seem interesting.
+
+Various canonical forms of matrices have many applications. I do not plan to talk about
+canonical forms in general, but they will show up in some instances. For example,
+diagonalization of a matrix (if it exists) gives a canonical form, and we will use
+diagonalizations several times.
+
+
+#### Anthony asks:
+
+> Will a copy of the homework be posted on Gradescope for instant access? For homework that
+> involves coding, will we have to write a report on the code or just send in the code cells?
+
+We will use Gradescope for homework submissions and grading. As for coding assignments,
+there will be no full-features reports, but sometime I may ask you to provide some explanations
+to go with computations.
+
+
+#### Jonah asks:
+
+When we were formulating linear programming problems, the decision variables (e.g. a_11, a_12, ... a_23)
+were arranged like the entries of a matrix. Will we use matrices to solve linear programming programs?
+
+Yes.

@@ -7,9 +7,9 @@ chapters:
     - title: 2. Linear programming
       complete: true
     - title: 3. Representation of a linear program
-      complete: false
+      complete: true
     - title: 4. Infeasibility and unboundedness
-      complete: false
+      complete: true
     - title: "5. The simplex method: the idea"
       complete: false
     - title: "6. The simplex method: an example"

@@ -11,7 +11,7 @@ chapters:
     - title: 4. Infeasibility and unboundedness
       complete: true
     - title: "5. The simplex method: the idea"
-      complete: false
+      complete: true
     - title: "6. The simplex method: an example"
       complete: false
 ---

@@ -2,7 +2,7 @@
 
 <br/>
 
-#### Yuzhan asks:
+#### Yuzhang asks:
 
 > 1. I am wondering if there is any website for learning the Numpy package.
 > 2. From my understanding, once the number of basic variables = the number of rows,

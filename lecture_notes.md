@@ -13,7 +13,7 @@ chapters:
     - title: "5. The simplex method: the idea"
       complete: true
     - title: "6. The simplex method: an example"
-      complete: false
+      complete: true
     - title: "7. Exception handling in the simplex method"
       complete: false
     - title: "8. Phase I of the simplex method"

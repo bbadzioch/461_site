@@ -76,7 +76,7 @@ maximization problem can be converted into a minimization one by multiplying the
 by -1.
 
 
-#### Nicholas asks:
+#### Nicholas L. asks:
 
 > Is it possible for multiple columns in a basic matrix to have the same identity matrix columns?
 > i.e. column one is $$[1, 0, 0]$$ and column five is also $$[1, 0, 0]$$.
@@ -163,7 +163,7 @@ The most efficient algorithms solve linear programming problems in polynomial ti
 time, but in practice it almost always finds the solution in polynomial time too.
 
 
-#### Nicholas asks:
+#### Nicholas F. asks:
 
 > I got stuck on the first homework problem. It seemed simple at first, but I quickly got confused by when to
 > produce and when to store. I may be overcomplicating it, but at one point I had recursively defined the number

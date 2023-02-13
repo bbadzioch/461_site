@@ -24,9 +24,9 @@ usually more complicated and slower than for linear programming.
 > Do the extreme points of a feasible region correspond to all basic feasible solutions
 > of a matrix NOT in basic form? I have a gut feeling that the answer is no.
 
-A matrix in the basic form is convenient for reading off a basic feasible solution,
-but modifying any matrix to this form using elementary row operations does not
-change the feasible region, the extreme points or what are the basic feasible solutions.
+A matrix in the basic form is convenient for reading off a basic feasible solution.
+However, we can bring any matrix to this form using elementary row operations, and this
+process does not change the feasible region, the extreme points and the basic feasible solutions.
 Starting with any matrix, a basic feasible solution can be computed by first selecting
 a maximal collection of columns of the matrix that are linearly independent. The variables
 corresponding to these columns become basic variables and the other variables are free.
@@ -120,7 +120,7 @@ insight how the simplex method works.
 
 > What is an example of an objective function in a unbounded feasible region that has a maximum?
 
-For a very simple example, assume that there are two objective variables $$x_1$$ and $$x_2$$,
+For a very simple example, assume that there are two decision variables $$x_1$$ and $$x_2$$,
 there is only one constraint $$x_2 \leq 1$$ and the objective function is $$z = x_2$$. The
 feasible region is unbounded since $$x_1$$ can be arbitrarily large, but the objective function
 has the maximum $$z = 1$$.
@@ -130,10 +130,10 @@ has the maximum $$z = 1$$.
 
 > Are there more efficient algorithms than the simplex method?
 
-Theoretically, the interior point method can be more efficient than the simplex method
-in same cases of linear programs. Practically there is not much difference though, since
-linear programs in which the simplex method would be significantly slower are rarely
-encountered.
+Theoretically, some other algorithms - the interior point method or the ellipsoid method -
+can be more efficient than the simplex method in same cases of linear programs. Practically
+there is not much difference, since linear programs in which the simplex method would be
+significantly slower are rarely encountered.
 
 
 #### Jonah asks:
@@ -158,8 +158,8 @@ depending on the type of constraints.
 > the runtime, but is there a sort of "divide and conquer" method that would be ultimately log*linear
 > that exists too?
 
-The most efficient algorithms solve linear programming problems in polynomial time (more or less
-$$O(n^{2.5})$$) in the number of variables. The simplex method in the worst cases requires exponential
+The most efficient algorithms solve linear programming problems in polynomial time in the number of variables
+(more or less $$O(n^{2.5})$$). The simplex method in the worst cases requires exponential
 time, but in practice it almost always finds the solution in polynomial time too.
 
 

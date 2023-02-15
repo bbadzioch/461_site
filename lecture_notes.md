@@ -15,7 +15,7 @@ chapters:
     - title: "6. The simplex method: an example"
       complete: true
     - title: "7. Exception handling in the simplex method"
-      complete: false
+      complete: true
     - title: "8. Phase I of the simplex method"
       complete: false
     - title: "9. Applications: L1 regression"

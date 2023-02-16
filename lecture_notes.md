@@ -20,6 +20,14 @@ chapters:
       complete: false
     - title: "9. Applications: L1 regression"
       complete: false
+    - title: "10. Integer programming"
+      complete: false
+    - title: "11. The assignment problem"
+      complete: false
+    - title: "12. Review: Determinants"
+      complete: false
+    - title: "13. The assignment problem continued"
+      complete: false
 ---
 
 # Lecture notes

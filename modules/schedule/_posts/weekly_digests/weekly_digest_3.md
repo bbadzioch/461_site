@@ -49,3 +49,14 @@ packages using the same method.
 
 Simplex method is a method for solving linear programming problems. It is also used in
 interger programming - a topic that we will deal with next.
+
+
+#### Nick L. asks:
+
+> Will questions using the simplex method always be over when all free variables
+> are negative?
+
+Yes, the simplex method is finished when all coefficients of free variables in the
+objective function are negative. At that point it is not possible to change the
+values of free variables anymore to increse the objective function, which means that
+we reached the maximum.

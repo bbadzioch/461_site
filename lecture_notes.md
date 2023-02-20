@@ -17,9 +17,9 @@ chapters:
     - title: "7. Exception handling in the simplex method"
       complete: true
     - title: "8. Phase I of the simplex method"
-      complete: false
+      complete: true
     - title: "9. Applications: L1 regression"
-      complete: false
+      complete: true
     - title: "10. Integer programming"
       complete: false
     - title: "11. The assignment problem"

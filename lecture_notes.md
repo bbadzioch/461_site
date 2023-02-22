@@ -21,12 +21,18 @@ chapters:
     - title: "9. Applications: L1 regression"
       complete: true
     - title: "10. Integer programming"
-      complete: false
+      complete: true
     - title: "11. The assignment problem"
-      complete: false
+      complete: true
     - title: "12. Review: Determinants"
       complete: false
     - title: "13. The assignment problem continued"
+      complete: false
+    - title: "14. Feasibility in the assignment problem"
+      complete: false
+    - title: "15. Graphs"
+      complete: false
+    - title: "16. Minimum vertex cover of a graph"
       complete: false
 ---
 

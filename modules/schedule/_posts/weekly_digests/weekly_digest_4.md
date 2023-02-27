@@ -141,11 +141,11 @@ if there are other connections.
 > just removed from a basis to have a nonnegative entry in the objective row of a simplex tableau?
 >
 > 2. Using simplex method: suppose I want to remove a variable s1 from a basis, adding a variable $$s2$$
-> in its place, and that the corresponding columns of the coefficient matrix are $$s_1=[0 1 0]^T$$ and
-> $$s_2=[u 0 v]^T$$. How can the swap be accomplished?
+> in its place, and that the corresponding columns of the coefficient matrix are $$s_1=[0\  1 \ 0]^T$$ and
+> $$s_2=[u\ 0\ v]^T$$. How can the swap be accomplished?
 
 > 3. What are the advantages to approaching regression as a linear programming problem, rather than
-> some other kind of problem? For example, as far as I know, $$A^T(A)\vec{x}=A^T \vec{b}$$ will always
+> some other kind of problem? For example, as far as I know, $$A^T Ax=A^T b$$ will always
 > work to find a best-fit line, and it seems this formula might be preferable to solving a linear
 > programming problem in many cases.
 
@@ -163,8 +163,8 @@ if there are other connections.
 #### Yingkun asks:
 
 > 1. I think there is a problem with the picture in the example in course note 10. For the feasible region,
-> the maximum value of $$x_1$$ should be 3 instead of 6. Because $$x1+x1$$ is less than or equal to 6 in the restriction.
-> Therefore, x1 should be less than or equal to 3, but the range of the feasible region in the figure is x1=6.
+> the maximum value of $$x_1$$ should be 3 instead of 6. Because $$x_1+x_1$$ is less than or equal to 6 in the restriction.
+> Therefore, $$x_1$$ should be less than or equal to 3, but the range of the feasible region in the figure is $$x_1=6$$.
 > So, the graph should shrink.
 >
 > At the same time, in the Augment Metrix of Example in course note 11 (annotated notes version), there are some

@@ -38,9 +38,10 @@ These are all different methods. Lets say that we have points $$(x_i, y_i)$$, an
 find a function of the form $$f(x) = ax + b$$ that best fits these points. The difference is
 how we define what "best fits" means:
 
-- **L1 regression.** We want $$a, b$$ such that $$\sum_i |ax_i + b - y_i|$$ is the smallest possible.
 
 - **L2 regression.** We want $$a, b$$ such that $$\sum_i (ax_i + b - y_i)^2$$ is the smallest possible.
+
+- **L1 regression.** We want $$a, b$$ such that $$\sum_i |ax_i + b - y_i|$$ is the smallest possible.
 
 - **Lasso regression.** We want $$a, b$$ such that $$\sum_i (ax_i + b - y_i)^2 + \lambda\cdot(|a| + |b|)$$
   is the smallest possible. Here $$\lambda$$ is a parameter that we choose. Different
@@ -140,7 +141,7 @@ if there are other connections.
 > 1. When using the simplex method to solve a maximization problem, is it possible for a variable
 > just removed from a basis to have a nonnegative entry in the objective row of a simplex tableau?
 >
-> 2. Using simplex method: suppose I want to remove a variable s1 from a basis, adding a variable $$s2$$
+> 2. Using simplex method: suppose I want to remove a variable $$s_1$$ from a basis, adding a variable $$s_2$$
 > in its place, and that the corresponding columns of the coefficient matrix are $$s_1=[0\  1 \ 0]^T$$ and
 > $$s_2=[u\ 0\ v]^T$$. How can the swap be accomplished?
 

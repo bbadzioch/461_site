@@ -41,7 +41,7 @@ how we define what "best fits" means:
 
 - **L2 regression.** We want $$a, b$$ such that $$\sum_i (ax_i + b - y_i)^2$$ is the smallest possible.
 
-- **L1 regression.** We want $$a, b$$ such that $$\sum_i |ax_i + b - y_i|$$ is the smallest possible.
+- **L1 regression.** We want $$a, b$$ such that $$\sum_i |ax_i + b - y_i| $$ is the smallest possible.
 
 - **Lasso regression.** We want $$a, b$$ such that $$\sum_i (ax_i + b - y_i)^2 + \lambda\cdot(|a| + |b|)$$
   is the smallest possible. Here $$\lambda$$ is a parameter that we choose. Different

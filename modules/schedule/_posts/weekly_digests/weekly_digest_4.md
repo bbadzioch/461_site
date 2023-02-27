@@ -38,11 +38,9 @@ These are all different methods. Lets say that we have points $$(x_i, y_i)$$, an
 find a function of the form $$f(x) = ax + b$$ that best fits these points. The difference is
 how we define what "best fits" means:
 
-- **L1 regression.** We want $$a, b$$ such that
+- **L1 regression.** We want $$a, b$$ such that $$\sum_i \left\lvert ax_i + b - y_i \right\lvert $$ is the smallest possible.
 
 - **L2 regression.** We want $$a, b$$ such that $$\sum_i (ax_i + b - y_i)^2$$ is the smallest possible.
-
-- **L1 regression.** We want $$a, b$$ such that $$\sum_i |ax_i + b - y_i| $$ is the smallest possible.
 
 - **Lasso regression.** We want $$a, b$$ such that $$\sum_i (ax_i + b - y_i)^2 + \lambda\cdot(|a| + |b|)$$
   is the smallest possible. Here $$\lambda$$ is a parameter that we choose. Different

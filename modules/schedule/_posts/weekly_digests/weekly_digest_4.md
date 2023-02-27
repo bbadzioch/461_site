@@ -143,7 +143,7 @@ if there are other connections.
 > 2. Using simplex method: suppose I want to remove a variable $$s_1$$ from a basis, adding a variable $$s_2$$
 > in its place, and that the corresponding columns of the coefficient matrix are $$s_1=[0\  1 \ 0]^T$$ and
 > $$s_2=[u\ 0\ v]^T$$. How can the swap be accomplished?
-
+>
 > 3. What are the advantages to approaching regression as a linear programming problem, rather than
 > some other kind of problem? For example, as far as I know, $$A^T Ax=A^T b$$ will always
 > work to find a best-fit line, and it seems this formula might be preferable to solving a linear

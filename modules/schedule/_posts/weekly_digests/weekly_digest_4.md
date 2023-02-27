@@ -38,6 +38,7 @@ These are all different methods. Lets say that we have points $$(x_i, y_i)$$, an
 find a function of the form $$f(x) = ax + b$$ that best fits these points. The difference is
 how we define what "best fits" means:
 
+- **L1 regression.** We want $$a, b$$ such that
 
 - **L2 regression.** We want $$a, b$$ such that $$\sum_i (ax_i + b - y_i)^2$$ is the smallest possible.
 
@@ -150,7 +151,7 @@ if there are other connections.
 > work to find a best-fit line, and it seems this formula might be preferable to solving a linear
 > programming problem in many cases.
 
-1. No, it is not possible. The interesting question is why.
+1. No, it is not possible. An interesting question is why.
 
 2. It cannot be done. The variable that exits the basis must provide the tightest bound on the value
    of the free variable, but in this case $$s_1$$ does not bound the value of $$s_2$$ at all.

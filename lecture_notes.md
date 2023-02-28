@@ -25,7 +25,7 @@ chapters:
     - title: "11. The assignment problem"
       complete: true
     - title: "12. Review: Determinants"
-      complete: false
+      complete: true
     - title: "13. The assignment problem continued"
       complete: false
     - title: "14. Feasibility in the assignment problem"

@@ -27,9 +27,9 @@ chapters:
     - title: "12. Review: Determinants"
       complete: true
     - title: "13. The assignment problem continued"
-      complete: false
+      complete: true
     - title: "14. Feasibility in the assignment problem"
-      complete: false
+      complete: true
     - title: "15. Graphs"
       complete: false
     - title: "16. Minimum vertex cover of a graph"

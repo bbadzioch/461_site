@@ -34,6 +34,15 @@ chapters:
       complete: false
     - title: "16. Minimum vertex cover of a graph"
       complete: false
+    - title: "17. Paths in graphs"
+      complete: false
+    - title: "18. Review: Eigenvalues and eigenvectors"
+      complete: false
+    - title: "19. Connectedness of graphs"
+      complete: false
+
+
+
 ---
 
 # Lecture notes

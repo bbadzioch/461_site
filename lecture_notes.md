@@ -31,9 +31,9 @@ chapters:
     - title: "14. Feasibility in the assignment problem"
       complete: true
     - title: "15. Graphs"
-      complete: false
+      complete: true
     - title: "16. Minimum vertex cover of a graph"
-      complete: false
+      complete: true
     - title: "17. Paths in graphs"
       complete: false
     - title: "18. Review: Eigenvalues and eigenvectors"

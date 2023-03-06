@@ -138,4 +138,9 @@ comes from a bipartite graph. This is true though for incidence matrices of grap
 if and only if its incidence matrix is totally unimodular.
 
 
+#### Jonah asks:
 
+> Last class we examined some bipartite graphs and we considered if the corresponding assignment of candidates
+> to jobs was possible. Can these kind of questions be solved by representing the graph as an incidence matrix?
+
+Yes, this is essentially what we used in class.

@@ -35,9 +35,9 @@ chapters:
     - title: "16. Minimum vertex cover of a graph"
       complete: true
     - title: "17. Paths in graphs"
-      complete: false
+      complete: true
     - title: "18. Review: Eigenvalues and eigenvectors"
-      complete: false
+      complete: true
     - title: "19. Connectedness of graphs"
       complete: false
 

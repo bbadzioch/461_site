@@ -40,6 +40,10 @@ chapters:
       complete: true
     - title: "19. Connectedness of graphs"
       complete: false
+    - title: "20. Review: Matrix diagonalization"
+      complete: false
+    - title: "21. Graph partitioning"
+      complete: false
 
 
 

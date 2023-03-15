@@ -39,7 +39,7 @@ chapters:
     - title: "18. Review: Eigenvalues and eigenvectors"
       complete: true
     - title: "19. Connectedness of graphs"
-      complete: false
+      complete: true
     - title: "20. Review: Matrix diagonalization"
       complete: false
     - title: "21. Graph partitioning"

@@ -44,6 +44,8 @@ chapters:
       complete: false
     - title: "21. Graph partitioning"
       complete: false
+    - title: "22. Quadratic forms"
+      complete: false
 
 
 

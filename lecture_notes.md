@@ -41,9 +41,9 @@ chapters:
     - title: "19. Connectedness of graphs"
       complete: true
     - title: "20. Review: Matrix diagonalization"
-      complete: false
+      complete: true
     - title: "21. Graph partitioning"
-      complete: false
+      complete: true
     - title: "22. Quadratic forms"
       complete: false
 

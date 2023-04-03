@@ -155,7 +155,7 @@ eigenvalues will be important for the next topic, where we will look at partitio
 
 <br/>
 
-#### Nick F.:
+#### Jonah:
 
 > Is there a connection between the Laplacian of a graph and the Laplacian of a differential
 > function?

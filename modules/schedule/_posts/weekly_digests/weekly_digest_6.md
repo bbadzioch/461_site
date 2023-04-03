@@ -69,7 +69,7 @@ matrix $$A^2$$ give the number of paths of length 2 between any two vertices, bu
 entries of the matrix $$A^n$$ give the number of paths of length $$n$$.
 
 
-#### Alan  asks:
+#### Alice  asks:
 
 > What are the practical applications of knowing the number of paths in a graph?
 
@@ -111,7 +111,7 @@ count them.
 
 #### Nick L. asks:
 
-> Are there always $$n$$ number of eigenvalues for an $$n\time n$$ matrix?
+> Are there always $$n$$ number of eigenvalues for an $$n\times n$$ matrix?
 
 No, a matrix can have at most $$n$$ different eigenvalues, but it can have fewer.
 
@@ -172,4 +172,5 @@ answer it, but I would guess that there are some known results going in this dir
 
 No, the complement always exists. It has the same vertices as $$G$$ and all edges
 that are not present in $$G$$.
+
 

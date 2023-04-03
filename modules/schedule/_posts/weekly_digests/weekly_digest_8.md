@@ -136,7 +136,7 @@ of the spring break.
 > or is it a selector vector that can have negative ones?
 
 If $$v$$ is a selector vector, then this condition says that if has to have $$k$$ entries equal to 1
-and $$$N-k$ entries equal to -1.
+and $$$N-k$$ entries equal to -1.
 
 
 #### Pavan asks:
@@ -176,6 +176,6 @@ apprear in the partitioning problem.
 > subset and the complement? Perhaps this would be one way of finding the smallest number of edges.
 
 It is theoretically possible, but practically impossible. For example, for a graph with 200 vertices
-and for $k=100$ there would be more than $$10^30$$ subsets to check. It we could do the computations
+and for $k=100$ there would be more than $$10^{30}$$ subsets to check. It we could do the computations
 for a billion of these subsets each second, it would take more than $$10^{13}$$ years to finish
 the calculations.

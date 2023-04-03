@@ -136,7 +136,7 @@ of the spring break.
 > or is it a selector vector that can have negative ones?
 
 If $$v$$ is a selector vector, then this condition says that if has to have $$k$$ entries equal to 1
-and $$$N-k$$ entries equal to -1.
+and $$N-k$$ entries equal to -1.
 
 
 #### Pavan asks:

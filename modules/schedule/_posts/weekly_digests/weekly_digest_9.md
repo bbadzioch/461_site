@@ -172,7 +172,7 @@ This is a very useful technique for analyzing sets of data.
 > $$\mathbb{R}^n$$, such that $$q_A(v)$$ is an element of the original matrix group? In this case,
 > we would be able to ask if any of the subgroups are normal.
 
-It you take the set of all ortogonal $$n\times n$$ matrices with matrix multiplication, then this
+If we take the set of all ortogonal $$n\times n$$ matrices with matrix multiplication, then this
 is a group. Given two such matrices $$A$$ and $$B$$ their conjugation is given by $$ABA^{-1}$$ = $$ABA^{T}$$
 (since for an orthogonal matrix we have $$A^{-1} = A^T$$). The right hand side resembles the
 definition of a quadratic form and it can be used to determine which subgroups of the group

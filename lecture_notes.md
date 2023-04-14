@@ -47,14 +47,18 @@ chapters:
     - title: "22. Quadratic forms"
       complete: true
     - title: "23. Mean, variance, covariance"
-      complete: false
+      complete: true
     - title: "24. Data matrices"
-      complete: false
+      complete: true
     - title: "25. PCA: the first principal component"
-      complete: false
+      complete: true
     - title: "26. Review: Orthogonal projections"
-      complete: false
+      complete: true
     - title: "27. PCA: geometric interpretation"
+      complete: false
+    - title: "28. PCA: further components"
+      complete: false
+    - title: "29. Computing eigenvalues: the power method"
       complete: false
 
 

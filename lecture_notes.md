@@ -55,7 +55,7 @@ chapters:
     - title: "26. Review: Orthogonal projections"
       complete: true
     - title: "27. PCA: geometric interpretation"
-      complete: false
+      complete: true
     - title: "28. PCA: further components"
       complete: false
     - title: "29. Computing eigenvalues: the power method"

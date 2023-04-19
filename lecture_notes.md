@@ -57,7 +57,7 @@ chapters:
     - title: "27. PCA: geometric interpretation"
       complete: true
     - title: "28. PCA: further components"
-      complete: false
+      complete: true
     - title: "29. Computing eigenvalues: the power method"
       complete: false
 

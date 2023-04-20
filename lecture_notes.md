@@ -60,6 +60,10 @@ chapters:
       complete: true
     - title: "29. Computing eigenvalues: the power method"
       complete: false
+    - title: "30. Markov chains"
+      complete: false
+    - title: "31. Long-term behavior of Markov chains"
+      complete: false
 
 
 

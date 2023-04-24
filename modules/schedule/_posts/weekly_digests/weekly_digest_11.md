@@ -38,7 +38,7 @@ geometric interpretation of further principal components and principal axes in c
 
 #### Yuzhang asks:
 
-> I am wondering what is the difference between the 1st principal axis ($$_u_1$$) and the 1st
+> I am wondering what is the difference between the 1st principal axis ($$u_1$$) and the 1st
 > principal component ($$Y_1$$)?
 
 The first principal axis of a data matrix $$A$$ specifies how colummns of $$A$$ need to be combined
@@ -118,10 +118,8 @@ if we want to recover the orginal data from demeaned one we can simply add the m
 would be square only if the number of exams was equal the number of students taking them. For
 this reason $$A$$ typically does not have eigenvalues and eigenvectors. On the other hand,
 every matrix has a singular value decomposition, and for a data matrix $$A$$ this decomposition
-is closely related to to PCA.
-
-The covariance matrix $$C$$ is symmetric, so it is orthogonally diagonalizable. Moreover $$C$$ is
-positive semidefinite, i.e. all its eigenvalues are non-negative.
+is closely related to to PCA. The covariance matrix $$C$$ is symmetric, so it is orthogonally diagonalizable.
+Moreover $$C$$ is positive semidefinite, i.e. all its eigenvalues are non-negative.
 
 1. This is correct. An additional complication is that if an eigenvalue of $$C$$ has more than one
 linearly independent eigenvector, then these eigenvectors need not be orthogonal to each other. However,

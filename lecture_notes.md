@@ -59,11 +59,10 @@ chapters:
     - title: "28. PCA: further components"
       complete: true
     - title: "29. Computing eigenvalues: the power method"
-      complete: false
+      complete: true
     - title: "30. Markov chains"
-      complete: false
-    - title: "31. Long-term behavior of Markov chains"
-      complete: false
+      complete: true
+
 
 
 

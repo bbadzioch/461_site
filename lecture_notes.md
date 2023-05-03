@@ -63,9 +63,9 @@ chapters:
     - title: "30. Markov chains"
       complete: true
     - title: "31. Long-term behavior of Markov chains"
-      complete: false
+      complete: true
     - title: "32. Steady-state vector of a random walk"
-      complete: false
+      complete: true
     - title: "33. Absorbing Markov chains"
       complete: false
     - title: "34. Absorption time"

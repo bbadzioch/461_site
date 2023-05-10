@@ -67,9 +67,9 @@ chapters:
     - title: "32. Steady-state vector of a random walk"
       complete: true
     - title: "33. Absorbing Markov chains"
-      complete: false
+      complete: true
     - title: "34. Absorption time"
-      complete: false
+      complete: true
 
 
 

@@ -10,26 +10,22 @@
 </style>
 
 <table class="lecture-notes">
-    {{page.chapters}}
     {% for chapter in page.chapters %}
-    <p>{{chapter}}</p>
     {% assign ch_num = chapter.title | split: "." | first %}
-        <p>{{chapter.title}} {{chapter.show}}</p>
-        {% if chapter.show %}
-        <tr>
-            <td>
-                <b>{{chapter.title}}</b>
-            </td>
-            <td>
-                <a href="{{site.baseurl}}/assets/notes/mth461_notes_{{ch_num}}.pdf" target="_blank">blank notes</a>
-            </td>
-            <td>
-                {% if chapter.complete %}
-                <a href="{{site.baseurl}}/assets/annotated_notes/mth461_annotated_notes_{{ch_num}}.pdf"
-                    target="_blank">annotated notes</a>
-                {% endif %}
-            </td>
-        </tr>
-        {% endif %}
+    <p>{{chapter.title}} {{chapter.show}}</p>
+    <tr>
+        <td>
+            <b>{{chapter.title}}</b>
+        </td>
+        <td>
+            <a href="{{site.baseurl}}/assets/notes/mth461_notes_{{ch_num}}.pdf" target="_blank">blank notes</a>
+        </td>
+        <td>
+            {% if chapter.complete %}
+            <a href="{{site.baseurl}}/assets/annotated_notes/mth461_annotated_notes_{{ch_num}}.pdf"
+                target="_blank">annotated notes</a>
+            {% endif %}
+        </td>
+    </tr>
     {% endfor %}
 </table>

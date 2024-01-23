@@ -2,7 +2,8 @@
 layout: lecture_notes
 
 chapters:
-    - title: “1. Linear programming“
+    - title: "1. Linear programming"
+      x: "a"
       complete: false
     - title: "2. Representation of a linear program"
       complete: false

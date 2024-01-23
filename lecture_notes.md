@@ -110,7 +110,7 @@ chapters:
 
 ---
 
-# Lecture notes
+# Lecture notes 2
 
 <br/>
 

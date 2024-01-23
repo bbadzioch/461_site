@@ -12,7 +12,7 @@
 <table class="lecture-notes">
     {% for chapter in page.chapters %}
     {% assign ch_num = chapter.title | split: "." | first %}
-    <p>{{chapter.title}} {{chapter.show}}</p>
+    <p>{{chapter.title}} {{chapter.publish}}</p>
     <tr>
         <td>
             <b>{{chapter.title}}</b>

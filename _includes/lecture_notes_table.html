@@ -11,6 +11,7 @@
 
 <table class="lecture-notes">
     {% for chapter in page.chapters %}
+    <p>{{chapter}}</p>
     {% assign ch_num = chapter.title | split: "." | first %}
         <p>{{chapter.title}} {{chapter.show}}</p>
         {% if chapter.show %}

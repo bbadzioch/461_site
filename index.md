@@ -33,7 +33,7 @@ A PDF version of this syllabus is available <a href="/assets/syllabus.pdf" markd
 
 | Bernard Badzioch |
 | **E-mail:** [badzioch@buffalo.edu](mailto:badzioch@buffalo.edu?subject=MTH 461) |
-| **Office Hours:** Wed 1:30-3:30 PM, Math Building 108 and by appointment |
+| **Office Hours:** Mon 4:00-6:00 PM, Math Building 108 and by appointment |
 
 
 ## Prerequisites
@@ -49,8 +49,8 @@ the extent that is covered in MTH 311.
 ## Learning outcomes
 
 The goal of this course is to introduce some more advanced topics in linear algebra
-and show how they are used in practical applications. Topics that will be dicussed
-include:
+and show how they are used in practical applications. Topics that will be discussed
+may include:
 
 * Linear and integer programming
 * Elements of spectral graph theory
@@ -74,7 +74,7 @@ that will be posted on this website.
 ## Software
 
 This course - lectures and homework assignments - will often use computer-based calculations.
-We will be using the [Anaconda distribution of Python 3.9](https://www.anaconda.com/products/distribution){:target="_blank"}.
+We will be using the [Anaconda distribution of Python](https://www.anaconda.com/products/distribution){:target="_blank"}.
 This is free software available for Mac, Linux, and Windows. Even if you have Python already
 installed on your computer you should install this distribution since it includes Jupyter notebook
 and some Python modules we will need. It will be convenient if you install the software on a laptop,
@@ -126,12 +126,12 @@ There will be no exams in this course.
 
 ## Incomplete Grades
 
-See the UB Catalog for the [UB Incomplete Policy](https://catalog.buffalo.edu/policies/explanation.html){:target="_blank"}.
+See the UB Catalog for the [UB Incomplete Policy](https://catalogs.buffalo.edu/content.php?catoid=1&navoid=19#incomplete-grades){:target="_blank"}.
 
 
 ## Academic Integrity
 
-See the UB Catalog for the [UB Academic Integrity Policy](https://catalog.buffalo.edu/policies/integrity.html){:target="_blank"}.
+See the UB Catalog for the [UB Academic Integrity Policy](https://catalogs.buffalo.edu/content.php?catoid=1&navoid=19#academic-integrity){:target="_blank"}.
 
 
 ## Accessibility Resources

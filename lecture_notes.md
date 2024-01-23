@@ -6,7 +6,7 @@ chapters:
       publish: true
       complete: true
     - title: "2. Representation of a linear program"
-      publish: true
+      publish: false
       complete: false
    
 

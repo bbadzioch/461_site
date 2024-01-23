@@ -12,6 +12,7 @@
 <table class="lecture-notes">
     {% for chapter in page.chapters %}
     {% assign ch_num = chapter.title | split: "." | first %}
+    {% if chapter.publish %}
     <tr>
         <td>
             <b>{{chapter.title}}</b>
@@ -26,5 +27,6 @@
             {% endif %}
         </td>
     </tr>
+    {% endif %}
     {% endfor %}
 </table>

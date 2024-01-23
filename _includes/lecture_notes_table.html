@@ -10,6 +10,7 @@
 </style>
 
 <table class="lecture-notes">
+    {{page.chapters}}
     {% for chapter in page.chapters %}
     <p>{{chapter}}</p>
     {% assign ch_num = chapter.title | split: "." | first %}

@@ -12,6 +12,7 @@
 <table class="lecture-notes">
     {% for chapter in page.chapters %}
     {% assign ch_num = chapter.title | split: "." | first %}
+    {% if chapter.show %}
     <tr>
         <td>
             <b>{{chapter.title}}</b>
@@ -21,9 +22,11 @@
         </td>
         <td>
             {% if chapter.complete %}
-            <a href="{{site.baseurl}}/assets/annotated_notes/mth461_annotated_notes_{{ch_num}}.pdf" target="_blank">annotated notes</a>
+            <a href="{{site.baseurl}}/assets/annotated_notes/mth461_annotated_notes_{{ch_num}}.pdf"
+                target="_blank">annotated notes</a>
             {% endif %}
         </td>
     </tr>
+    {% endif %}
     {% endfor %}
 </table>

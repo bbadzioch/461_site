@@ -2,74 +2,108 @@
 layout: lecture_notes
 
 chapters:
-    - title: "1. Review: Systems of linear equations"
-      complete: true
-    - title: 2. Linear programming
-      complete: true
-    - title: 3. Representation of a linear program
-      complete: true
-    - title: 4. Infeasibility and unboundedness
-      complete: true
+    - title: “1. Linear programming“
+      show: true
+      complete: false
+    - title: "2. Representation of a linear program"
+      show: true
+      complete: false
+    - title: "3. Infeasibility and unboundedness"
+      show: true
+      complete: false
+    - title: “4. Review: Systems of linear equations"
+      show: false
+      complete: false
     - title: "5. The simplex method: the idea"
-      complete: true
+      show: false
+      complete: false
     - title: "6. The simplex method: an example"
-      complete: true
+      show: false
+      complete: false
     - title: "7. Exception handling in the simplex method"
-      complete: true
+      show: false
+      complete: false
     - title: "8. Phase I of the simplex method"
-      complete: true
+      show: false
+      complete: false
     - title: "9. Applications: L1 regression"
-      complete: true
+      show: false
+      complete: false
     - title: "10. Integer programming"
-      complete: true
+      show: false
+      complete: false
     - title: "11. The assignment problem"
-      complete: true
+      show: false
+      complete: false
     - title: "12. Review: Determinants"
-      complete: true
+      show: false
+      complete: false
     - title: "13. The assignment problem continued"
-      complete: true
+      show: false
+      complete: false
     - title: "14. Feasibility in the assignment problem"
-      complete: true
+      show: false
+      complete: false
     - title: "15. Graphs"
-      complete: true
+      show: false
+      complete: false
     - title: "16. Minimum vertex cover of a graph"
-      complete: true
+      show: false
+      complete: false
     - title: "17. Paths in graphs"
-      complete: true
+      show: false
+      complete: false
     - title: "18. Review: Eigenvalues and eigenvectors"
-      complete: true
+      show: false
+      complete: false
     - title: "19. Connectedness of graphs"
-      complete: true
+      show: false
+      complete: false
     - title: "20. Review: Matrix diagonalization"
-      complete: true
+      show: false
+      complete: false
     - title: "21. Graph partitioning"
-      complete: true
+      show: false
+      complete: false
     - title: "22. Quadratic forms"
-      complete: true
+      show: false
+      complete: false
     - title: "23. Mean, variance, covariance"
-      complete: true
+      show: false
+      complete: false
     - title: "24. Data matrices"
-      complete: true
+      show: false
+      complete: false
     - title: "25. PCA: the first principal component"
-      complete: true
+      show: false
+      complete: false
     - title: "26. Review: Orthogonal projections"
-      complete: true
+      show: false
+      complete: false
     - title: "27. PCA: geometric interpretation"
-      complete: true
+      show: false
+      complete: false
     - title: "28. PCA: further components"
-      complete: true
+      show: false
+      complete: false
     - title: "29. Computing eigenvalues: the power method"
-      complete: true
+      show: false
+      complete: false
     - title: "30. Markov chains"
-      complete: true
+      show: false
+      complete: false
     - title: "31. Long-term behavior of Markov chains"
-      complete: true
+      show: false
+      complete: false
     - title: "32. Steady-state vector of a random walk"
-      complete: true
+      show: false
+      complete: false
     - title: "33. Absorbing Markov chains"
-      complete: true
+      show: false
+      complete: false
     - title: "34. Absorption time"
-      complete: true
+      show: false
+      complete: false
 
 
 

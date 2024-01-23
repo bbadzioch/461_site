@@ -11,7 +11,7 @@ chapters:
     - title: "3. Infeasibility and unboundedness"
       publish: true
       complete: false
-    - title: “4. Review: Systems of linear equations"
+    - title: "4. Review: Systems of linear equations"
       publish: false
       complete: false
     - title: "5. The simplex method: the idea"

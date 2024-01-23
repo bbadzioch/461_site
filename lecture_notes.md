@@ -4,7 +4,7 @@ layout: lecture_notes
 chapters:
     - title: "1. Linear programming"
       publish: true
-      complete: true
+      complete: false
     - title: "2. Representation of a linear program"
       publish: true
       complete: false
@@ -110,7 +110,7 @@ chapters:
 
 ---
 
-# Lecture notes 3
+# Lecture notes
 
 <br/>
 

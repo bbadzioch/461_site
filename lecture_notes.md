@@ -12,7 +12,7 @@ chapters:
       publish: true
       complete: false
     - title: "4. Review: Systems of linear equations"
-      publish: false
+      publish: true
       complete: false
     - title: "5. The simplex method: the idea"
       publish: false

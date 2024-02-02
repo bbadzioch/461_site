@@ -4,21 +4,21 @@ layout: lecture_notes
 chapters:
     - title: "1. Linear programming"
       publish: true
-      complete: false
+      complete: true
     - title: "2. Representation of a linear program"
       publish: true
-      complete: false
+      complete: true
     - title: "3. Infeasibility and unboundedness"
       publish: true
-      complete: false
+      complete: true
     - title: "4. Review: Systems of linear equations"
       publish: true
       complete: false
     - title: "5. The simplex method: the idea"
-      publish: false
+      publish: true
       complete: false
     - title: "6. The simplex method: an example"
-      publish: false
+      publish: true
       complete: false
     - title: "7. Exception handling in the simplex method"
       publish: false

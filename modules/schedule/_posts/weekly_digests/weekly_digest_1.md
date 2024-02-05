@@ -13,15 +13,14 @@ inequalities, some variables could be only non-negative, while others could assu
 both positive and negative values. Then in the process of looking for solutions we would 
 need to deal with all these various cases. By rewriting a program in, say, the equality form 
 we assure that all constraints are equalities and all variables are non-negative, which makes
-it somewhat easier to solve.
+it somewhat to solve.
 
 
 #### Sean asks:
 
 > The only question I have is how many questions on average are the homeworks.
 
-I am not sure, since I have not prepared all assignments yet. It will be less than 10 
-though.
+I am not sure, since I have not prepared all assignments yet. It will be less than 10.
 
 
 #### Jonathan asks:
@@ -30,7 +29,7 @@ though.
 > there are $$x^+$$ and $$x^-$$ variables. I don't really understand why we denote these variables 
 > like this,  so my question is what do these $$x^+$$ and $$x^-$$ variables mean for a problem?
 
-This is just a notation. In the equality or inequality form of a linear program we want all variables to 
+This is just notation. In the equality or inequality form of a linear program we want all variables to 
 satistfy the non-negativity constraint $$x_i \geq 0$$. If in the original program a variable $$x_i$$
 can have any (positive and negative) values, then we can replace it by two non-negative variables $$x_{i}^{+} \geq 0$$ 
 and $$x_{i}^{-}\geq 0$$, and set $$x_i = x_{i}^{+} - x_{i}^{-}$$. The notation is motivated by this formula: 
@@ -65,9 +64,8 @@ centers before they are sent to customers.
 
 1. The minimum of the objective function need not be at the origin. One reason for this is that the origin may not 
    give a feasible solution. For example, in the farming problem if we add an additional constraint that the farmer needs 
-   to grow at least 50 acres of crops, (i.e. $$x_1 + x_2 \geq 50$$), then this will not be satisfied if $$x_1 = 0$$ and $$x_2 = 0$$.
-   Even if the origin gives a feasible solution, it need not give the minimum. Where the minimum is will depend on 
-   the objective function. 
+   to grow at least 50 acres of crops, (i.e. $$x_1 + x_2 \geq 50$$), then this will not be satisfied 
+   if $$x_1 = 0$$ and $$x_2 = 0$$. Even if the origin gives a feasible solution, it needs not give the minimum. Where the minimum is will depend on the objective function. 
 
 2. This can happen. Take e.g. the objective function $$z = x_1 - x_2$$ and constraints $$x_1 \geq 0$$, $$x_2 \geq 0$$. Then $$z$$ 
    can be both arbitrarily large and arbitrarily small.
@@ -82,8 +80,8 @@ centers before they are sent to customers.
 1. I will talk about the simplex method, which a way of solving linear programs. Using this method it is also 
    possible to check if a solution is unique or not. 
 
-2. I talked about it in class: a linear program will not have a solution if it is not feasible. It also may not have a solution if 
-   it is unbounded.
+2. I talked about it in class: a linear program will not have a solution if it is not feasible. It also may have 
+   no solutions if it is unbounded.
 
 
 #### Laura asks:
@@ -100,7 +98,7 @@ Gradescope will be set up by the time the first homework is assigned.
 > 2. What type of jobs would use linear programming? 
 > 3. What type of example problem would linear programming be beneficial to use?
 
-1. In this courses we will look at various applications of linear algebra. Some of them are related 
+1. In this courses we will look at various applications of linear algebra. Some of them will be related 
 to mathematical modelling. 
 
 2. Logistics, operations research, data analysis, financial analysis, production planning, supply chain management etc. 
@@ -120,8 +118,7 @@ Gradescope will be set up by the time the first homework is assigned.
 #### Zhen asks:
 
 > 1. If it's infinitely close to zero can I just set the minimum value to zero？
-> 2. Write in the comment that it may have a maximum or minimum value in this area. 
->    Is it possible that it doesn't have a maximum and a minimum?
+> 2. Is it possible that it doesn't have a maximum and a minimum?
 
 1. The minimum of the objective function in a linear program 
    (if it exists) will be either 0 or some other number. I am not sure what you mean by infinitely 
@@ -147,4 +144,4 @@ between the left hand side and the right hand side of the inequality.
 
 > Is there only one type of linear programming?
 
-Yes, linear programming is what I described in class. There are various methods of solving linear programs thoough.
+Yes, linear programming is what I described in class. There are various methods of solving linear programs though.

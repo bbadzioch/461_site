@@ -134,8 +134,8 @@ Gradescope will be set up by the time the first homework is assigned.
 > problem (opposed to general form) then I will understand what it means. Maybe I am overthinking it.
 
 Slack variables are used to replace inequality constraints in a linear program by equivalent equality constraints. 
-Saying that variables $$x_1, \dots, x_n$$  satisfy an inequality $$a_1x_1 + \dots a_nx_n \leq b$$ is 
-equivalent to saying that these variables  satisfy the equality  $$a_1x_1 + \dots a_nx_n + s = b$$
+Saying that variables $$x_1, \dots, x_n$$  satisfy an inequality $$a_1x_1 + \dots + a_nx_n \leq b$$ is 
+equivalent to saying that these variables  satisfy the equality  $$a_1x_1 + \dots + a_nx_n + s = b$$
 for some $$s\geq 0$$. The new variable $$s$$ is called the slack variable, because it picks up the slack
 between the left hand side and the right hand side of the inequality. 
 

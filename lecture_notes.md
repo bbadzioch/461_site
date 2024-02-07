@@ -13,13 +13,13 @@ chapters:
       complete: true
     - title: "4. Review: Systems of linear equations"
       publish: true
-      complete: false
+      complete: true
     - title: "5. The simplex method: the idea"
       publish: true
-      complete: false
+      complete: true
     - title: "6. The simplex method: an example"
       publish: true
-      complete: false
+      complete: true
     - title: "7. Exception handling in the simplex method"
       publish: false
       complete: false

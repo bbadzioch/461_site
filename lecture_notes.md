@@ -21,13 +21,13 @@ chapters:
       publish: true
       complete: true
     - title: "7. Exception handling in the simplex method"
-      publish: false
+      publish: true
       complete: false
     - title: "8. Phase I of the simplex method"
-      publish: false
+      publish: true
       complete: false
     - title: "9. Applications: L1 regression"
-      publish: false
+      publish: true
       complete: false
     - title: "10. Integer programming"
       publish: false

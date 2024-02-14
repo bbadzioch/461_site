@@ -22,7 +22,7 @@ chapters:
       complete: true
     - title: "7. Exception handling in the simplex method"
       publish: true
-      complete: false
+      complete: true
     - title: "8. Phase I of the simplex method"
       publish: true
       complete: false

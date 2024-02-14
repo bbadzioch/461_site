@@ -30,16 +30,16 @@ chapters:
       publish: true
       complete: false
     - title: "10. Integer programming"
-      publish: false
+      publish: true
       complete: false
     - title: "11. The assignment problem"
-      publish: false
+      publish: true
       complete: false
     - title: "12. Review: Determinants"
-      publish: false
+      publish: true
       complete: false
     - title: "13. The assignment problem continued"
-      publish: false
+      publish: true
       complete: false
     - title: "14. Feasibility in the assignment problem"
       publish: false

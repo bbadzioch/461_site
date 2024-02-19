@@ -43,22 +43,22 @@ of them works well in some cases, but is not optimal in some other cases.
    only. Instead, a machine will be able to cut a rod into pieces of any length. However, 
    the factory will still want to cut as few rods as possible to fulfill its orders, so
    it can minimize the usage of the material. The procedure to plan production will be as 
-   follows. Lets say that we need to produce $$n_i$$ pieces of length $$l_i$$ for $$$i=1, 2, \dots, k$$.
+   follows. Lets say that we need to produce $$n_i$$ pieces of length $$l_i$$ for $$i=1, 2, \dots, k$$.
    We can consider all possible pattens of cutting a rod into pieces of lengths $$l_i$$. 
    Then we can set a linear program that will tell us how many rods should be cut using each 
-   cutting patten in order to meet the demand, while minimizing the total number of rods cut. 
+   cutting pattern in order to meet the demand, while minimizing the total number of rods cut. 
    In this settig, the number of possible cutting patterns can easily reach thousands, 
-   which will give thousands of decision variables and constraints. 
+   which will give thousands of decision variables. 
 
-2. As soon as we know that a problem is unbounded, there is no need to do anything else, 
+2. As soon as we know that a problem is unbounded, there is no need to continue, 
    since it is known that the problem has no solution.
 
 
 #### Jonathan asks:
 
-> How do you know when you're dealing with unboundedness? 
+> How do you know when you are dealing with unboundedness? 
 
-I explained in class last week. Please see the 
+I explained this in class last week. Please see the 
 <a href="{{site.baseurl}}/assets/annotated_notes/mth461_annotated_notes_7.pdf" target="_blank">notes</a>
 on unboundedness handling.
 
@@ -82,9 +82,9 @@ method etc.) that may work better.
 1. Yes, a degenerate pivot step in the simplex method is a pivot step that 
    does not increase the objective function. 
 2. In the starting setup of that example, $$x_1$$ and $$x_2$$ are free - 
-   this is not a choice that we make, but how the problem looks at the beginning. 
-   Then we perform a pivot step which makes $$s_1$$ into a free variable 
-   (while making $$x_1$$ basic).
+   this is not a choice that we make, but it follows from the way the simplex 
+   tableau looks at the beginning. Then we perform a pivot step which makes 
+   $$s_1$$ into a free variable (while making $$x_1$$ basic).
 
 
 #### Zhen asks:
@@ -100,7 +100,7 @@ See, for example
 for an account of these developments. The simplex method has exponential complexity relative 
 to the number of variables and constraints. Some other methods (e.g. the interior point method
 or the ellipsoid method) have polynomial complexity. In practical applications though, 
-enhanced variants of the simplex method usually perform as well or better than these other methods.
+variants of the simplex method usually perform as well or better than these other methods.
 
 
 #### Angelo asks:
@@ -112,7 +112,7 @@ enhanced variants of the simplex method usually perform as well or better than t
 1. Increasing $$x_1$$ in the first pivot step of that example would give the solution in 2 pivot steps. 
    Increasing $$x_2$$ leads to computations that require 3 pivot steps. 
 2. At every pivot step of the simplex method, we keep track which variables are free and which are basic. 
-   Basic variables correspond to the columns of the simplex tableau that have one entry equal to 1, and 
+   Basic variables correspond to the columns of the simplex tableau that have one entry equal to 1 and 
    the remaining entries equal to 0. When we know which variables are free and which are basic, we can 
    compute a basic feasible solution by setting free variables to 0. Values of the basic variables are 
    determined by this choice. Thus the process is going in the opposite direction than you suggested: first 
@@ -124,6 +124,6 @@ enhanced variants of the simplex method usually perform as well or better than t
 
 > Can a problem exhibit both unboundedness and degeneracy simultaneously in linear programming?
 
-Yes. It is possible that the simplex method will go through one or more degenerate steps, before 
+Yes. It is possible that the simplex method will go through one or more degenerate steps before 
 it shows that the problem is unbounded. 
 

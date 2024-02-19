@@ -7,7 +7,7 @@
 > How can we systematically determine a good initial basic feasible solution 
 > to improve the performance of the algorithm?
 
-Computations of the initial feasible solution are done in so-called Phase 1 of
+Computations of the initial basic feasible solution are done in so-called Phase 1 of
 the simplex method. I have not talked about it yet, but I will explain it this week. 
 
 
@@ -18,13 +18,13 @@ the simplex method. I have not talked about it yet, but I will explain it this w
 
 At every pivot step of the simplex method, we must select a free variable that we want 
 to increase. Sometimes there will be only one free variable that increases the objective
-function, and then there is only one possible choice. However, usually there are many 
+function, and then there is only one choice. However, usually there are many 
 possible free variables to choose from. Pivoting rules specify how to make this choice. 
 For example, such a rule may say that we should always choose the variable with the 
 largest positive coefficient in the objective function. A different rule may say that 
 we should always choose a variable with the smallest index. There are other options 
 too. It is an open question if it is possible to find pivoting rules that are better than 
-all other possibilities, i.e. that give the solution of every linear programming using 
+all other possibilities, i.e. that give the solution of every linear program using 
 the least number of computations. All known pivoting rules do not have this property: each 
 of them works well in some cases, but is not optimal in some other cases. 
 
@@ -38,7 +38,7 @@ of them works well in some cases, but is not optimal in some other cases.
 1. For one example, see my response to Samuel's question in 
    <a href="{{site.baseurl}}/modules/schedule/week_2/" target="_blank">Digest 1</a>. 
    For a different example, consider the situation described in Exercise 2 of
-   <a href="{{site.baseurl}}//assets/homework/hw_1.pdf" target="_blank">Homework 1</a>. 
+   <a href="{{site.baseurl}}/assets/homework/hw_1.pdf" target="_blank">Homework 1</a>. 
    In a realistic setting, there will be no machines that can cut rods in one specific way 
    only. Instead, a machine will be able to cut a rod into pieces of any length. However, 
    the factory will still want to cut as few rods as possible to fulfill its orders, so

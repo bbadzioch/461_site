@@ -25,10 +25,10 @@ chapters:
       complete: true
     - title: "8. Phase I of the simplex method"
       publish: true
-      complete: false
+      complete: true
     - title: "9. Applications: L1 regression"
       publish: true
-      complete: false
+      complete: true
     - title: "10. Integer programming"
       publish: true
       complete: false

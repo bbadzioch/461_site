@@ -42,13 +42,13 @@ chapters:
       publish: true
       complete: false
     - title: "14. Feasibility in the assignment problem"
-      publish: false
+      publish: true
       complete: false
     - title: "15. Graphs"
-      publish: false
+      publish: true
       complete: false
     - title: "16. Minimum vertex cover of a graph"
-      publish: false
+      publish: true
       complete: false
     - title: "17. Paths in graphs"
       publish: false

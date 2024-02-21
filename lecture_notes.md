@@ -31,10 +31,10 @@ chapters:
       complete: true
     - title: "10. Integer programming"
       publish: true
-      complete: false
+      complete: true
     - title: "11. The assignment problem"
       publish: true
-      complete: false
+      complete: true
     - title: "12. Review: Determinants"
       publish: true
       complete: false

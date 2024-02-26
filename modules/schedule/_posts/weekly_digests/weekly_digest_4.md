@@ -37,8 +37,8 @@ graph partitioning etc.), but the are many others (the travelling salesman probl
 the knapsack problem etc.)
 
 2. I am not sure if I understood the question, but if you are asking 
-in what cases the (relaxed) linear program will give optimal solution of an integer 
-program, then it happens very rarely. It works for the assignment problem, 
+in what cases the (relaxed) linear program will give the optimal solution of 
+an integer program, then it happens very rarely. It works for the assignment problem, 
 but it is a very special case. 
 
 
@@ -55,7 +55,7 @@ but it is a very special case.
 
 1. It is true that $$L_2$$ regression is used more often than $$L_1$$, and non-uniqueness
    of $$L_1$$ is one of the main reasons for it. There are cases though, where $$L_1$$
-   regression may be a better fit. One way to decide it is based on probability theory: 
+   regression may be a better fit. One way to decide it, is based on probability theory: 
    $$L_2$$ regression is related to the normal distribution of the error terms 
    in the data, while $$L_1$$ regression is related to the Laplace distribution. As a side note, 
    some methods used in data analysis use a combination of $$L_1$$ and $$L_2$$, see e.g. the 
@@ -129,7 +129,7 @@ The definition and an example are in the lecture notes
 > there are other best fit lines i can imagine for $$L_2$$. Does this graph have a flaw or are there multiple 
 > ways to approach least square?
 
-In the case illustrated in these notes, there is only one best fit line for $$L_2$$ regression. 
+In the case shown in these notes, there is only one best fit line for $$L_2$$ regression. 
 In almost all cases $$L_2$$ regression has exactly one solution. If you would like to show me what 
 other possibilities you see, we can talk about it. 
 
@@ -149,4 +149,4 @@ In practical applications graphs are usually messy. This is why we need various 
 > Can the assignment problem be solved efficiently for a lot of constraints or large instances?
 
 Yes. It can be solved using linear programming, which in general is efficient. There are also other 
-methods for solving the assignmnent problem, e.g. the Hungarian method. 
+methods for solving the assignment problem, e.g. the Hungarian method. 

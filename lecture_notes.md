@@ -37,13 +37,13 @@ chapters:
       complete: true
     - title: "12. Review: Determinants"
       publish: true
-      complete: false
+      complete: true
     - title: "13. The assignment problem continued"
       publish: true
-      complete: false
+      complete: true
     - title: "14. Feasibility in the assignment problem"
       publish: true
-      complete: false
+      complete: true
     - title: "15. Graphs"
       publish: true
       complete: false
@@ -51,13 +51,13 @@ chapters:
       publish: true
       complete: false
     - title: "17. Paths in graphs"
-      publish: false
+      publish: true
       complete: false
     - title: "18. Review: Eigenvalues and eigenvectors"
-      publish: false
+      publish: true
       complete: false
     - title: "19. Connectedness of graphs"
-      publish: false
+      publish: true
       complete: false
     - title: "20. Review: Matrix diagonalization"
       publish: false

@@ -46,13 +46,13 @@ chapters:
       complete: true
     - title: "15. Graphs"
       publish: true
-      complete: false
+      complete: true
     - title: "16. Minimum vertex cover of a graph"
       publish: true
-      complete: false
+      complete: true
     - title: "17. Paths in graphs"
       publish: true
-      complete: false
+      complete: true
     - title: "18. Review: Eigenvalues and eigenvectors"
       publish: true
       complete: false

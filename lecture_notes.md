@@ -55,10 +55,10 @@ chapters:
       complete: true
     - title: "18. Review: Eigenvalues and eigenvectors"
       publish: true
-      complete: false
+      complete: true
     - title: "19. Connectedness of graphs"
       publish: true
-      complete: false
+      complete: true
     - title: "20. Review: Matrix diagonalization"
       publish: true
       complete: false

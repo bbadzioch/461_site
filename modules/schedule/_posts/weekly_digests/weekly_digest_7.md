@@ -1,14 +1,39 @@
-### Weekly Digest 6: Questions and Answers
+### Weekly Digest 7: Questions and Answers
 
 <br/>
 
-#### Xu asks:
+#### Xin asks:
 
-> In the context of optimization problems like the assignment problem, 
-> how important is it to consider both computational feasibility and optimality?
+> I have a question about the April 8th Monday class because I just received an hour ago, 
+> it will be canceled or remotely?
 
-Both of these are important. The goal is to get a solution that is optimal (or as close 
-to optimal as possible), and to compute such a solution efficiently. 
+There will be no class that day. I would really prefer these questions to relate to the 
+course content though.
+
+
+#### Aurora asks:
+
+> How would you figure out which singular vertices does the resulting matrix 
+> the code calculates be in location on the plot? 
+
+I updated
+<a href="{{site.baseurl}}/assets/notebooks/connected_components.html" target="_blank">the notebook</a>
+I used in class to show labels of vertices. This is controlled by the argument `with_labels` of 
+the function  `nx.draw_networkx`. Setting this argument to `True` shows vertex labels, setting it 
+to `False` hides the labels. As it is common in Python, vertices are labeled starting at 0, so 
+the vertex corresponding to the first row and the first column of the adjacency matrix is the vertex 
+number 0 and so on. 
+
+
+#############################
+#############################
+#############################
+#############################
+#############################
+
+
+
+
 
 
 #### Himanshu asks:
@@ -69,19 +94,7 @@ or capital budgeting. Graph theory (or network theory) are used too, see e.g.
 <a href="https://link.springer.com/book/10.1007/978-3-319-09683-4" target="_blank">this book</a>.
 
 
-#### Aurora asks:
 
-> What is the purpose of having multiple edges between vertices, as in can multiple edges be 
-> represented as one instead, but simply weighted more if there are more connections?
-
-It is true that instead of considering multiple edges between vertices we can use weighted edges.
-However, sometimes using multiple edges may be more intuitive. For example, one of the first
-graphs studied in mathematics was the graph of 
-<a href="https://en.wikipedia.org/wiki/Seven_Bridges_of_K%C3%B6nigsberg" target="_blank">bridges of Königsberg</a>.
-In this graph every vertex represents a different part of the city of Königsberg (two shores of a river 
-and two islands on the river), and each edge is a bridge connecting two of these parts. In this case it 
-is more natural to use two edges to indicate that there are two bridges connecting the same parts of the city, 
-than to have one edge of weight two. 
 
 
 #### Jonathan asks:

@@ -25,102 +25,65 @@ the vertex corresponding to the first row and the first column of the adjacency 
 number 0 and so on. 
 
 
-#############################
-#############################
-#############################
-#############################
-#############################
-
-
-
-
-
-
 #### Himanshu asks:
 
-> 1. Are there more than one way to look at the edges of the graph? Like can we define 
-     the edge to be anything we want?
-> 2. Are there no algorithms for paths that go back and forth along the same edge? 
+> 1. Did we find a formula for finding the average dimension of $$\text{Null}(S)$$ given $$n$$ and $$m$$?
+> 2. Why do gigantic components happen? Like is it some feature of the random library in python?
 
-
-1. Edges connect vertices of a graph. Vertices and edges can represent various 
-   things, depending on a particular application. 
-2. Powers of the adjacency matrix of a graph compute the number of paths, where paths 
-   can use repeatedly the same edge. Computations of paths that do not repeat 
-   any edge are more complicated and in general take more time.
-
+1. I will need to ask for a clarification of this question: I am not sure what is $$S$$, $$m$$ and $$n$$ here. 
+2. This is a feature of random graphs. One can prove that under some assumptions a randomly generated graph 
+   will have one and only one giant component. 
 
 #### Grace asks:
 
-> Are the network style graphs related to the topic of applied linear algebra in that matrices 
-> can help us solve info about the graph? Or is there another way in which it is all connected, 
-> like bipartite graphs representing the assignment problem?
+Does graph sparsity affect the efficiency and accuracy of the linear algebraic methods for analyzing graph 
+connectivity? If so, what are the implications?
 
-Graph theory is connected to linear algebra in many different ways. 
-I will explain a few more such connections in this course.
+There are special methods for performing various computations with sparse matrices. They are usually much 
+faster than generic methods, that work for all matrices. 
+
+#### Sean asks:
+
+> Who was the main pioneer of linear programming?
+
+George Dantzig would be probably considered as one, since he invented and published the simplex method. 
+However, linear programs were used and even solved using similar methods before Dantzig by Fourier, 
+Kantorovich, Leontief, Koopmans and others. 
 
 
 #### Zhen asks:
 
-> 1. Why is finding the minimum vertex cover important in graph theory, and how does it relate 
->    to optimization problems? 
-> 2. How does understanding different types of paths in graphs contribute to solving complex network 
->    optimization problems?
+> 1. What are the differences between Integer Programming and Linear Programming?
+> 2. What are some common methods or algorithms used to solve Integer Programming problems?
 
-1. The problem of finding a minimum vertex cover **is** an optimization problem. Beside direct 
-   application of this problem, it is very closely related to other problems in graph theory:
-   finding a maximum independent set of a graph, a maximum clique etc. 
-2. Various problems in graph theory are related to studying paths in a graph, and some will involve 
-   paths of a specific type: simple paths, Hamiltonian paths, cycles etc. 
+1. In integer programs the goal is to find an optimal solution consisting of integers. 
+   In linear programs a solution can consist of arbitrary real numbers. Integer programs 
+   are much more difficulat to solve in general. 
 
-
-#### Xin asks:
-
-> Can we get minimum vertex cover from other places? I think this knowledge is more abstract and 
-> similar to topology.
-
-"Cover" has many different meanings in mathematics. In particular, in topology we often use covers 
-of topological spaces. However, "verted cover" and "minimum vertex cover" are notions specific to graph 
-theory. There are several different ways of associating a topological space to a graph (or vice versa), 
-so graph theory does have various relationships to topology. 
+2. The main two methods of solving integer programs are branch-and-bound and Gomory's cut. 
+   Both of these methods involve repeatedly solving linear programs. Often these two methods 
+   are used together to speed up computations. 
 
 
-#### Sean asks:
+#### Xu asks:
 
-> Do these topics, especially the ones related to graph theory have any applications in finance?
+> How does the connectedness of a graph impact its properties, such as traversal algorithms 
+> and network reliability?
 
-Linear and integer programming are very often used in finance, for example for portfolio optimization
-or capital budgeting. Graph theory (or network theory) are used too, see e.g. 
-<a href="https://link.springer.com/book/10.1007/978-3-319-09683-4" target="_blank">this book</a>.
-
-
-
+In order to traverse the whole graph starting from a single vertex, the graph must be connected. 
+I am not sure what you mean by network reliability. 
 
 
 #### Jonathan asks:
 
-> What's the difference between a simple graph and an undirected graph?
+> How do you permute the columns of a table?
 
-A simple graph does not have multiple edges and self-edges (i.e. edges that start and end at the same vertex).
-
-
-#### Samuel asks:
-
-> If you could put everyone on earth in to a matrix, could you prove the theory that everyone 
-> is connected by at most six degrees of separation. 
-
-Yes. For this, we could take the adjacency matrix $$A$$ of the graph showing connctions between people, 
-and compute the sum of its first 6 powers $$A^1 + A^2 + \dots + A^6$$. Entries of this matrix would 
-give the number of ways any two people can be connected either directly or indirectly through at most 
-six acquaintances. If this matrix would not contain any zeros, it would mean that any two people are 
-connected in this way, so there are at most 6 degrees of separations between them. 
+Permutation is rearrangement. Thus you permute columns of a table but arranging them in 
+some different order. 
 
 
 #### Quinquan asks:
 
-> All the graphs that we saw in class were either directed or undirected. 
-> Can we have a graph with directed and undirected edges at the same time?
+What is the minimum number of edges required for a graph with n vertices to be connected?
 
-It would be possible to define such a graph, but I have not seen this used anywhere. 
-In cases where it could be useful, it would be probably easier to use a directed graph, 
-by replacing each undirected edge by two directed edges going in both directions. 
+$$n-1$$ edges. 

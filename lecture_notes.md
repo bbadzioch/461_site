@@ -61,10 +61,10 @@ chapters:
       complete: true
     - title: "20. Review: Matrix diagonalization"
       publish: true
-      complete: false
+      complete: true
     - title: "21. Graph partitioning"
       publish: true
-      complete: false
+      complete: true
     - title: "22. Quadratic forms"
       publish: false
       complete: false

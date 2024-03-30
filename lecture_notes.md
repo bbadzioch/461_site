@@ -66,7 +66,7 @@ chapters:
       publish: true
       complete: true
     - title: "22. Quadratic forms"
-      publish: false
+      publish: true
       complete: false
     - title: "23. Mean, variance, covariance"
       publish: false

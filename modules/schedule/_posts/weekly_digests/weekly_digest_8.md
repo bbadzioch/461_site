@@ -89,7 +89,9 @@ partitioning problem does not make such distinctions.
 Take e.g. a graph with vertices 1, 2, 3, 4, 5 that are connected in a circular fashion. That 
 is, there is an edge joining 1 with 2, 2 with 3, 3 with 4, 4 with 5 and 5 with 1. The maximum 
 clique in this graph consists of two vertices, but it is easy to check that the graph cannot be 
-colored with 2 colors. 
+colored with 2 colors. There is a <a href="https://en.wikipedia.org/wiki/Mycielskian">more general construction</a> 
+of graphs that have only cliques with 2 vertices, but require $$n$$ colors to color them. 
+
 
 
 #### Quinquan asks:

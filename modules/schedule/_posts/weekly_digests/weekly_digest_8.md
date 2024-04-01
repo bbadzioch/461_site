@@ -7,7 +7,7 @@
 > How does the complexity of graph partitioning algorithms vary depending on 
 > the characteristics of the graph, such as size, density, and structure?
 
-It is diffiicult to answer it in such generality. Briefly, all known algorithms 
+It is difficult to answer this in such generality. Briefly, all known algorithms 
 for finding optimal partitioning have an exponential complexity. The spectral 
 partitioning method that I will explain is much faster, but it gives only 
 an approximated solution. 
@@ -81,7 +81,7 @@ which  let us decide that some partitioning is better that some other one. Howev
 partitioning problem does not make such distinctions. 
 
  
- #### Samuel asks:
+#### Samuel asks:
 
 > I know I already asked this in office hours, but, do you have an example of a graph where 
 > the max clique is not the minimum number of colors needed like the hw question.

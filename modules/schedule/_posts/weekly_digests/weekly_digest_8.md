@@ -99,7 +99,7 @@ of graphs that have only cliques with 2 vertices, but require $$n$$ colors to co
 > What does the notation $$E(S,\overline{S})$$ mean in the context of graphs (notes 21), like 
 > how does it relate to graph partitioning?
 
-For a given graph $$$G$$, $$S$$ is some subset of vertices of $$G$$ and $$\overline{S}$$ is the set 
+For a given graph $$G$$, $$S$$ is some subset of vertices of $$G$$ and $$\overline{S}$$ is the set 
 vertices of $$G$$ that are not in $$S$$. Then $$E(S,\overline{S})$$ is the set of edges connecting vertices
 in $$S$$ with vertices in $$\overline{S}$$. These are the edges that need to be removed to separate 
 the set $$S$$ from the rest of the graph. 

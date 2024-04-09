@@ -69,7 +69,7 @@ chapters:
       publish: true
       complete: false
     - title: "23. Mean, variance, covariance"
-      publish: false
+      publish: true
       complete: false
     - title: "24. Data matrices"
       publish: false

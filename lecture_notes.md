@@ -67,21 +67,21 @@ chapters:
       complete: true
     - title: "22. Quadratic forms"
       publish: true
-      complete: false
+      complete: true
     - title: "23. Mean, variance, covariance"
       publish: true
       complete: false
     - title: "24. Data matrices"
-      publish: false
+      publish: true
       complete: false
     - title: "25. PCA: the first principal component"
-      publish: false
+      publish: true
       complete: false
     - title: "26. Review: Orthogonal projections"
-      publish: false
+      publish: true
       complete: false
     - title: "27. PCA: geometric interpretation"
-      publish: false
+      publish: true
       complete: false
     - title: "28. PCA: further components"
       publish: false

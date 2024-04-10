@@ -15,7 +15,6 @@ It is also possible to apply spectral partitioning to the situation when either
 edges or vertices have some associated weights. There are other variations too.
 
 
-
 #### Zhen asks:
 
 > 1. Why do we use a Laplacian matrix to look at networks, and how is it different 
@@ -26,8 +25,8 @@ edges or vertices have some associated weights. There are other variations too.
    so the list vertices that are connected would be the list of all vertices of the graph. 
    The Laplacian matrix is used for the partitioning problem which seeks to divide the graph 
    while cutting the smallest possible number of edges. 
-2. The usual application is the opposite of what you suggest: if we know how to partition a graph, 
-   then it may help us to create a better plot of the graph. Vertices that are in the same partition 
+2. The usual application is the opposite of what you suggest: knowing how to partition a graph, 
+   may help us create a better plot of the graph. Vertices that are in the same partition 
    should be drawn closer together, since they are more tightly connected. 
 
 
@@ -48,102 +47,57 @@ the Laplacian matrix is symmetric, and so it is orthonormally diagonalizable,
 helps to find a solution to the relaxed partitioning problem. 
 
 
-
-
-
-########################
-########################
-########################
-########################
-########################
-########################
-
 #### Xu asks:
 
-> How does the complexity of graph partitioning algorithms vary depending on 
-> the characteristics of the graph, such as size, density, and structure?
+> How do we determine the optimal number of partitions for a given graph? 
 
-It is difficult to answer this in such generality. Briefly, all known algorithms 
-for finding optimal partitioning have an exponential complexity. The spectral 
-partitioning method that I will explain is much faster, but it gives only 
-an approximated solution. 
-
-
-#### Jonathan asks:
-
-> Why can't every matrix be diagonalizable? 
-
-An $$n\times n$$ matrix is diagonalizable if and only if it has $$n$$ linearly 
-independent eigenvectors. Some matrices do not have that many linearly 
-independent eigenvectors. With some more work, it possible to give 
-other, possibly more intuitive, explanations how it happens that some matrices 
-are not diagonzalizable. You can read e.g. about the Jordan canonical form of a matrix.
-
-
-
-
-
-#### Sean asks:
-
-> What are some good online resources for extra help?
-
-For each topic I am talking about in this course there are many online resources, 
-but there is no one place that I know of that would cover them all. If there is 
-anything which is unclear or that could use any additional explanation, please 
-come to my office hours and I will help. 
-
-
-#### Xin asks:
-
-> What is the different between Partitioning and relaxation problems? 
-
-The partitioning problem can take a very long time to solve for larger graphs. 
-It is much easier and faster to find a solution to the relaxed partitioning 
-problem. This solution can be then used to compute an approximated partitioning 
-of the graph. 
-
-
-#### Himanshu asks:
-
-> Is there are a specific reason we chose $$-1$$ if i belongs to $$\overline{S}$$? 
-> As generally if one condition results in $$1$$, then the other results in $$0$$.
-
-This convention, using $$1$$ and $$-1$$ values, is makes it more convenient to state 
-the relaxed partitioning problem. It would be possible to use $$1$$ and $$0$$ instead, 
-but then computations would be more awkward.
+The spectral partitioning method as I explained it, splits a graph into two 
+parts. It is possible to modify it to get a splitting into a bigger number 
+of pieces. One  such modification involves using eigenvectors of the Laplacian 
+together with the k-means clustering algorithm. In such case, it is possible 
+to use some techniques related to k-means, such as the elbow method, to try to estimate 
+the optimal number of partitions.
 
 
 #### Grace asks:
 
-> Is there a measurement for the quality of a partition? How is the quality measured, if so? 
-> How does the type of problem vary it?
+> What are the benefits of spectral partitioning?
 
-The goal of partitioning is to split the graph into pieces with specified numbers of vertices, 
-by cutting as few edges as possible. Depending on the context, we can add further restrictions 
-which  let us decide that some partitioning is better that some other one. However, the general 
-partitioning problem does not make such distinctions. 
+Partitioning by itself provides useful information about a graph, which groups 
+of vertices are more tightly connected and also how difficult it is to split 
+the graph into pieces. Since computing the exact optimal partitioning of a graph 
+is difficult, spectral partitioning is one of the methods used to get an approximation 
+of the optimal partitionining in a way that is computationally efficient. 
 
- 
+
 #### Samuel asks:
 
-> I know I already asked this in office hours, but, do you have an example of a graph where 
-> the max clique is not the minimum number of colors needed like the hw question.
+> Is there any way to tell quickly just by looking at a matrix that it has $$n$$ 
+> linearly independent eigenvectors?
 
-Take e.g. a graph with vertices 1, 2, 3, 4, 5 that are connected in a circular fashion. That 
-is, there is an edge joining 1 with 2, 2 with 3, 3 with 4, 4 with 5 and 5 with 1. The maximum 
-clique in this graph consists of two vertices, but it is easy to check that the graph cannot be 
-colored with 2 colors. There is a <a href="https://en.wikipedia.org/wiki/Mycielskian">more general construction</a> 
-of graphs that have only cliques with 2 vertices, but require $$n$$ colors to color them. 
+For matrices that are in some special forms (e.g. are symmetric) it is possible.
+In general, no. 
 
+
+#### Himanshu asks:
+
+> 1. What happens when the value of $$\lambda_2$$ is zero?
+> 2. How do you calculate vector $$u_2$$ (from the example we did) if we did not have the code for it? 
+
+1. This would mean that the Laplacian has at least two linearly independent 
+   eigenvectors for the eigenvalue 0, which implies that the graph is not connected. 
+2. In general, if we have an eigenvalue $$\lambda$$ of a matrix $$A$$, then the corresponding 
+   eigenvectors are the vectors in the null space of the matrix $$A - \lambda I$$. The nulspace
+   can be computed using row reduction. There are also other ways of computing eigenvalues and
+   eigenvectors, I will talk about it somewhat later. 
 
 
 #### Quinquan asks:
 
-> What does the notation $$E(S,\overline{S})$$ mean in the context of graphs (notes 21), like 
-> how does it relate to graph partitioning?
+> How minimizing the Cheeger constant can lead to balanced partitions in a graph? 
+> Is it because of the minimized edges in graph partitioning?
 
-For a given graph $$G$$, $$S$$ is some subset of vertices of $$G$$ and $$\overline{S}$$ is the set 
-vertices of $$G$$ that are not in $$S$$. Then $$E(S,\overline{S})$$ is the set of edges connecting vertices
-in $$S$$ with vertices in $$\overline{S}$$. These are the edges that need to be removed to separate 
-the set $$S$$ from the rest of the graph. 
-
+The Cheeger constant is a number that can be computed for a graph, and that expresses 
+how tightly connected the graph is. Bigger Cheeger constants means that we have to cut 
+more edges in order to partition the graph. The Cheeger constant has a fixed value for 
+each graph, so it cannot be minimized. 

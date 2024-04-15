@@ -83,3 +83,14 @@ Diagonalization lets us, essentially, reduce the study of quadratic forms to the
 forms represented by diagonal matrices. Such forms are easy to classify, solve optimization 
 problems with etc. 
 
+
+#### Quinquan asks:
+
+> My question is, when I was doing problem 2 on the homework I was researching things related to 
+> the problem and went down a rabbit hole and found something called dynamic programming. 
+> Is that related to anything we do in this class? 
+
+Dynamic programming is a technique used to solve certain optimization problems in mathematics 
+and also to structure various algorithms in computer engineering. It could be applied to write 
+code that searches for solutions of some problems we encountered in this course (minimum vertex 
+cover etc.).

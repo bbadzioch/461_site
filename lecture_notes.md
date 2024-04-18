@@ -70,13 +70,13 @@ chapters:
       complete: true
     - title: "23. Mean, variance, covariance"
       publish: true
-      complete: false
+      complete: true
     - title: "24. Data matrices"
       publish: true
-      complete: false
+      complete: true
     - title: "25. PCA: the first principal component"
       publish: true
-      complete: false
+      complete: true
     - title: "26. Review: Orthogonal projections"
       publish: true
       complete: false

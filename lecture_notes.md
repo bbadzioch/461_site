@@ -84,10 +84,10 @@ chapters:
       publish: true
       complete: false
     - title: "28. PCA: further components"
-      publish: false
+      publish: true
       complete: false
     - title: "29. Computing eigenvalues: the power method"
-      publish: false
+      publish: true
       complete: false
     - title: "30. Markov chains"
       publish: false

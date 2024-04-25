@@ -82,27 +82,27 @@ chapters:
       complete: false
     - title: "27. PCA: geometric interpretation"
       publish: true
-      complete: false
+      complete: true
     - title: "28. PCA: further components"
       publish: true
-      complete: false
+      complete: true
     - title: "29. Computing eigenvalues: the power method"
       publish: true
       complete: false
     - title: "30. Markov chains"
-      publish: false
+      publish: true
       complete: false
     - title: "31. Long-term behavior of Markov chains"
-      publish: false
+      publish: true
       complete: false
     - title: "32. Steady-state vector of a random walk"
-      publish: false
+      publish: true
       complete: false
     - title: "33. Absorbing Markov chains"
-      publish: false
+      publish: true
       complete: false
     - title: "34. Absorption time"
-      publish: false
+      publish: true
       complete: false
 
 

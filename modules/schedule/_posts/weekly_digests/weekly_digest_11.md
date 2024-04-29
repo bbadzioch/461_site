@@ -6,7 +6,7 @@
 
 > What fields are these topics most important in?
 
-Data analysis, mathematical modeling, optimization, machine learnining etc. 
+Data analysis, mathematical modeling, optimization, machine learning etc. 
 
 
 #### Aurora asks:

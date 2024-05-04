@@ -88,13 +88,13 @@ chapters:
       complete: true
     - title: "29. Computing eigenvalues: the power method"
       publish: true
-      complete: false
+      complete: true
     - title: "30. Markov chains"
       publish: true
-      complete: false
+      complete: true
     - title: "31. Long-term behavior of Markov chains"
       publish: true
-      complete: false
+      complete: true
     - title: "32. Steady-state vector of a random walk"
       publish: true
       complete: false
